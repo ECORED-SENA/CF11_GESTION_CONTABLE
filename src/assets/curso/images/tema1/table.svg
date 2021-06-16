@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="255" viewBox="0 0 1030 255">
+  <g id="Grupo_59436" data-name="Grupo 59436" transform="translate(-285 -6309)">
+    <rect id="Rectángulo_4935" data-name="Rectángulo 4935" width="1030" height="97" transform="translate(285 6369.676)" fill="#f6f6f6"/>
+    <rect id="Rectángulo_4936" data-name="Rectángulo 4936" width="1030" height="97" transform="translate(285 6466.676)" fill="#fff"/>
+    <text id="Accidental_o_transitorio" data-name="Accidental o transitorio" transform="translate(405 6393.676)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="19">Accidental o </tspan><tspan x="0" y="46">transitorio</tspan></text>
+    <text id="Contratos_inferiores_a_un_año_solo_se_podrán_prorrogar_hasta_tres_veces_por_periodos_iguales_o_inferiores." data-name="Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores." transform="translate(736.533 6393.676)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces </tspan><tspan x="0" y="38">por periodos iguales o inferiores.</tspan></text>
+    <text id="Derecho_al_pago_de_prestaciones_sociales_en_proporción_al_tiempo_laborado." data-name="Derecho al pago de prestaciones sociales en proporción al tiempo laborado." transform="translate(736.533 6490.676)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Derecho al pago de prestaciones sociales en proporción al tiempo </tspan><tspan x="0" y="38">laborado.</tspan></text>
+    <line id="Línea_132" data-name="Línea 132" y2="193.824" transform="translate(370 6369.676)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+    <line id="Línea_137" data-name="Línea 137" y2="193.824" transform="translate(633.871 6369.676)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+    <line id="Línea_138" data-name="Línea 138" y2="193.824" transform="translate(704.476 6369.676)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_2380" data-name="Trazado 2380" d="M0,0H1030V60.672H0Z" transform="translate(285 6309)" fill="#d9a171"/>
+    <text id="Características_generales" data-name="Características generales" transform="translate(976 6350)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-109.49" y="0">Características generales</tspan></text>
+    <text id="Clase_de_contrato" data-name="Clase de contrato" transform="translate(476 6350)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-76.676" y="0">Clase de contrato</tspan></text>
+    <text id="No." transform="translate(673 6350)" fill="#fff" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-15.891" y="0">No.</tspan></text>
+  </g>
+</svg>
