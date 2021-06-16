@@ -71,7 +71,7 @@
       .col-12.col-md-8.col-lg-6.col-xl-12
             img(src='@/assets/curso/images/tema2/img_10.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
 
-    #t_2_1.titulo-segundo
+    #t_2_2.titulo-segundo
       .h4 2.2  Trabajo extra y recargos
     p.mb-3 El trabajo extra se consagra cuando un trabajador debe laborar una vez terminada su jornada de trabajo ordinaria; igualmente, se deben tener en cuenta, en el momento de liquidar el tiempo extra, los diversos recargos a que tiene lugar según los demarcados en la norma laboral colombiana.
 
@@ -112,7 +112,7 @@
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_33.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
-            .p-4
+            .p-3
               h2 Hora extra dominical diurna
               p “HEDD”. La hora extra dominical diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche; siempre y cuando se trabaje en un domingo o festivo y, se trabajen más de 8 horas diarias, si esa es la jornada ordinaria.
 
@@ -199,6 +199,271 @@
             .col-md-8.mb-4.mb-md-0.p-4
               
               p Si la jornada de trabajo la inicia el día sábado a las 10:00 pm y termina el día domingo a las 6:00 am: se calcula así: 2 horas ordinarias x 35 % y 6 horas dominicales x 110 % (35 % recargo nocturno y 75 % recargo dominical); entonces, sueldo básico $1.200.000 dividido 240 = $5.000 x 2 x 35 % =$3.500 más $5.000 x 6 x 110 % = $33.000, es decir total por recargos $36.500.
+    #t_2_3.titulo-segundo
+      .h4 2.3   Devengado
+    p.mb-5 Representa todas las sumas que el empleador paga al trabajador, de acuerdo con la legislación laboral vigente y está conformado por los diferentes conceptos que constituyen el salario; este valor está compuesto por el salario básico, horas extras, recargos diurnos y nocturnos, dominicales, festivos, comisiones, auxilio de transporte entre otros.
+
+    .row
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/images/tema2/ico_40.svg', alt="", style="width:100px; display:block; margin:0 auto;")
+          .tarjeta.tarjeta--azul
+            .p-3
+              h2 Ejemplo 1.
+              p <b>Sueldo básico devengado:</b> Si un trabajador inicia a laborar el día 2 de marzo, con un sueldo concertado con la empresa de $1.200.000, el valor devengado en el mes corresponde a $1.160.000..
+
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/images/tema2/ico_41.svg', alt="", style="width:100px; display:block; margin:0 auto;")
+          .tarjeta.tarjeta--azul
+            .p-3
+              h2 Ejemplo 2.
+              p  <b>Auxilio de transporte devengado:</b> Si un trabajador inicia a laborar el día 11 de marzo, con un auxilio de transporte, según la ley $102.854, el valor devengado en el mes corresponde a $68.569 (20 días).
+
+
+    p.mb-3 Condición para reconocer el auxilio de transporte se debe pagar a los trabajadores que devenguen hasta dos salarios mínimos mensuales.
+
+    Separador
+
+    #t_2_4.titulo-segundo
+      .h4 2.4   Deducciones 
+    p.mb-3 Las deducciones de una nómina son los valores que se resta a los devengos salariales. Incluye los pagos a la seguridad social (salud, pensión) y la retención en la fuente, la cual es entregada al organismo recaudador de impuestos (DIAN), debido a que la entidad o empresa ejerce la función de agente retenedor. 
+
+    p.mb-5 A continuación, se relacionan los principales conceptos asociados al descuento para el trabajador, los cuales se establecen desde la norma laboral colombiana, atendiendo así:
+
+    .row.justify-content-center.align-items-center.mt-5
+          .col
+            .col-sm.mt-3
+
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Aportes a salud 4 %
+                  li 
+                    i.fas.fa-check
+                    | Aportes a pensión 4 %
+                  li
+                    i.fas.fa-check
+                    | Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1 % para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes. .
+                  li 
+                    i.fas.fa-check
+                    | Cuotas sindicales
+                  li 
+                    i.fas.fa-check
+                    | Aportes a cooperativas.
+                  li 
+                    i.fas.fa-check
+                    | Embargos judiciales.
+                  li
+                    i.fas.fa-check
+                    | Cuotas o créditos a entidades financieras “Libranza”.
+                  li 
+                    i.fas.fa-check
+                    | Deudas del trabajador con la entidad o empresa.
+                  li 
+                    i.fas.fa-check
+                    | Retención en la fuente.
+          .col-12.col-md-8.col-lg-6.col-xl-8
+              img(src="@/assets/curso/images/tema2/img_11.svg" alt="", style="width:400px; display:block; margin: 0 auto;")
+
+    h3.mb-3.titulo-tercero Base de liquidación
+
+    p.mb-3 El ingreso base de cotización “IBC” corresponde al total devengado en el periodo sin tener en cuenta el auxilio de transporte
+
+    Separador
+
+    #t_2_5.titulo-segundo
+      .h4 2.5  Seguridad social y parafiscales
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-tarjeta.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/images/tema2/ico_42.svg', alt='')
+          
+        .h2.text-center.text-white Seguridad social
+        p.text-white Es el derecho que tiene toda persona natural, y en especial todo trabajador, a que se le garantice la seguridad social integral, entendida ésta como la cobertura en salud, riesgos de invalidez, vejez y muerte, igualmente cobertura en accidentes de trabajo. (Gerencie, 2021a)
+      .col-md.tarjeta.color-acento-contenido.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/images/tema2/ico_43.svg', alt='')
+          
+        .h2.text-center Parafiscales
+        p Los aportes parafiscales son contribuciones de carácter obligatorio impuestas por la ley en cabeza de los empleadores, las cuales se determinan sobre la base gravable de la nómina total de trabajadores y que beneficia no solo a estos, sino también al sostenimiento del ICBF, el SENA y las Cajas de Compensación Familiar. (CAFASUR, 2018)
+
+
+    p.mb-5 De esta manera se relaciona el decreto por el cual se expide el Estatuto Tributario de los Impuestos Administrados por la Dirección General de Impuestos Nacionales Art. 114-1 ET Exoneración de aportes que indica: 
+
+
+    .row.justify-content-center.align-items-center.mb-5
+          .col-10
+            .bloque-texto-d.color-primario.p-3
+              .bloque-texto-d__texto.mb-1
+                i.fas.fa-quote-left
+                span “Estarán exoneradas del pago de los aportes parafiscales a favor del Servicio Nacional del Aprendizaje (SENA), del Instituto Colombiano de Bienestar Familiar (ICBF) y las cotizaciones al Régimen Contributivo de Salud, las sociedades y personas jurídicas y asimiladas contribuyentes declarantes del impuesto sobre la renta y complementarios, correspondientes a los trabajadores que devenguen, individualmente considerados, menos de diez (10) salarios mínimos legales mensuales vigentes.”
+                i.fas.fa-quote-right
+              .bloque-texto-d__autor 
+                span  (Gerencie, 2019)
+
+    p.mb-5 Así mismo las personas naturales empleadoras estarán exoneradas de la obligación de pago de los aportes parafiscales al SENA, al ICBF y al Sistema de Seguridad Social en Salud por los empleados que devenguen menos de diez (10) salarios mínimos legales mensuales vigentes. Lo anterior no aplicará para personas naturales que empleen menos de dos trabajadores, los cuales seguirán obligados a efectuar los aportes de que trata este inciso. Ver Tabla 1.
+
+    .titulo-quinto.color-acento-contenido
+      p Tabla 1 #[br] <b>Aportes a la seguridad social y parafiscales</b>
+
+    .col-12
+      .tabla-a.color-acento-contenido.mb-2
+        table
+          thead
+            tr.th-1.text-center
+              th Tipo de aporte
+              th % Aporte empleador
+              th % Aporte empleado
+              th % Total aporte
+          tbody
+            tr
+              td <b>Salud</b>
+              td.text-center 8.5 %
+              td.text-center 4 %
+              td.text-center 12.5 %
+            tr
+              td <b>Pensión</b> 
+              td.text-center 12 %
+              td.text-center 4 %
+              td.text-center 16 %
+
+    p.mb-3 *ARL: La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348 % para el nivel I y 8.7 % para el nivel V de riesgo. La tarifa más común es del 0.522 %.          
+
+    Separador
+
+    #t_2_6.titulo-segundo
+      .h4 2.6  Prestaciones sociales
+    p.mb-3 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarlos o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. Ver Figura 1.
+
+    h3.mb-3.titulo-tercero Clases de prestaciones sociales:
+
+      .row.justify-content-center.align-items-center.mt-5
+        .col-md.mb-5.mb-sm-0
+            figure
+              img.me-5(src="@/assets/curso/images/tema2/ico_6.svg" alt="", style="width:70px; display:block; margin:auto 0;")      
+            p <b>Cesantías.</b> Corresponde a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajador.
+            figure
+              img.me-5(src='@/assets/curso/images/tema2/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
+            .col
+              p <b>Intereses sobre cesantías.</b> El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual.               
+        .col-md.mb-5.mb-sm-0
+            figure
+              img.me-5(src='@/assets/curso/images/tema2/ico_8.svg' alt="", style="width:70px; display:block; margin:auto 0;")     
+            .col
+              p <b>Prima de servicios.</b> Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.          
+            figure
+              img(src='@/assets/curso/images/tema2/ico_9.svg' alt="", style="width:70px; display:block; margin:auto 0;")
+            .col
+              p <b>Vacaciones.</b> Corresponden a 15 días hábiles de descanso remunerado por cada año laborado, o proporcional por fracción de año si el tiempo laborado es inferior a un año (Dussán, 2020)
+          
+    p.mb-3 Figura 1
+
+    .titulo-quinto.color-acento-contenido.mb-5 
+      p Resumen prestaciones sociales
+
+    .col-12
+            img(src="@/assets/curso/images/tema2/img_12.svg" alt="", style="width:700px; display:block; margin: 0 auto;")
+
+    Separador 
+
+    p.mb-5 En Colombia los ingresos laborales o por salarios están sometidos a retención en la fuente a título de renta, con una tarifa progresiva según el monto del salario sujeto a retención en la fuente. (Gerencie. 2020b).
+
+    .row.mb-5
+      .col-lg-6.mb-5.mb-lg-0
+        .bloque-texto-d.color-primario.p-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h3.text-regular Quién debe practicar retención en la fuente por ingresos laborales
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h5.mb-0 La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
+            
+      .col-lg-6.mb-5.mb-lg-0
+        .bloque-texto-d.color-primario.p-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h3.text-regular A cuáles trabajadores se les realiza retención en la fuente
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h5.mb-0 Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
+          
+    h3.mb-3.titulo-tercero Base sujeta a retención en la fuente.
+
+    p.mb-3 Según lo consagrado en el Artículo 26 del Estatuto Tributario, corresponde a todos los pagos “que sean susceptibles de producir un incremento neto del patrimonio en el momento de su percepción, y que no hayan sido expresamente exceptuados”. 
+
+    h3.mb-3.titulo-tercero Tarifa de retención en la fuente por salarios
+
+    p.mb-3 El Artículo 383 del Estatuto Tributario, modificado por la Ley 2010 de 2019, contiene las tarifas que se deben aplicar por concepto de retención en la fuente por ingresos laborales. Ver Tabla 2.
+
+    .titulo-quinto.color-acento-contenido
+      p Tabla 1 #[br] <b>Aportes a la seguridad social y parafiscales</b>
+
+
+    .col-12
+      .tabla-a.color-acento-contenido.mb-5
+        table
+          thead
+            tr.th-1.text-center
+              th Rangos en UVT  desde
+              th Tarifa marginal hasta
+              th Retención en la fuente
+              th 
+          tbody
+            tr
+              td.text-center 8.5 %
+              td.text-center 95
+              td.text-center 0 %
+              td.text-center 0
+            tr
+              td.text-center > 95
+              td.text-center 150
+              td.text-center 19  %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 95 UVT) x 19 %
+
+    .jumbotron-gris.p-2
+      p Nota. Tomada de Dussán (2019).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
