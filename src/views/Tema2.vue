@@ -14,7 +14,7 @@
             img(src="@/assets/curso/images/tema2/img_8.svg" alt="", style="width:700px; display:inline-block; margin: 0 auto;")
     
     #t_2_1.titulo-segundo
-      .h4 2.1  Política contable
+      .h2 2.1  Política contable
     p.mb-3 El capital humano en las entidades o empresas ha venido tomando un gran valor para las directivas; cada vez más, se enfatiza su importancia como un recurso imprescindible para poder alcanzar los objetivos organizacionales y este puede ser una fortaleza que las empresas deben valorar y retribuir económicamente de manera más favorable con los diversos beneficios que pueden ofrecer por la prestación de sus servicios.
     p.mb-5 Según la Norma Internacional de Contabilidad (NIC 19), se definen los beneficios a los empleados así:
 
@@ -72,7 +72,7 @@
             img(src='@/assets/curso/images/tema2/img_10.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
 
     #t_2_2.titulo-segundo
-      .h4 2.2  Trabajo extra y recargos
+      .h2 2.2  Trabajo extra y recargos
     p.mb-3 El trabajo extra se consagra cuando un trabajador debe laborar una vez terminada su jornada de trabajo ordinaria; igualmente, se deben tener en cuenta, en el momento de liquidar el tiempo extra, los diversos recargos a que tiene lugar según los demarcados en la norma laboral colombiana.
 
     p.mb-5 El Código Sustantivo de Trabajo (CST), en su Artículo 159, lo define claramente así:
@@ -200,7 +200,7 @@
               
               p Si la jornada de trabajo la inicia el día sábado a las 10:00 pm y termina el día domingo a las 6:00 am: se calcula así: 2 horas ordinarias x 35 % y 6 horas dominicales x 110 % (35 % recargo nocturno y 75 % recargo dominical); entonces, sueldo básico $1.200.000 dividido 240 = $5.000 x 2 x 35 % =$3.500 más $5.000 x 6 x 110 % = $33.000, es decir total por recargos $36.500.
     #t_2_3.titulo-segundo
-      .h4 2.3   Devengado
+      .h2 2.3   Devengado
     p.mb-5 Representa todas las sumas que el empleador paga al trabajador, de acuerdo con la legislación laboral vigente y está conformado por los diferentes conceptos que constituyen el salario; este valor está compuesto por el salario básico, horas extras, recargos diurnos y nocturnos, dominicales, festivos, comisiones, auxilio de transporte entre otros.
 
     .row
@@ -226,7 +226,7 @@
     Separador
 
     #t_2_4.titulo-segundo
-      .h4 2.4   Deducciones 
+      .h2 2.4   Deducciones 
     p.mb-3 Las deducciones de una nómina son los valores que se resta a los devengos salariales. Incluye los pagos a la seguridad social (salud, pensión) y la retención en la fuente, la cual es entregada al organismo recaudador de impuestos (DIAN), debido a que la entidad o empresa ejerce la función de agente retenedor. 
 
     p.mb-5 A continuación, se relacionan los principales conceptos asociados al descuento para el trabajador, los cuales se establecen desde la norma laboral colombiana, atendiendo así:
@@ -244,10 +244,10 @@
                     | Aportes a pensión 4 %
                   li
                     i.fas.fa-check
-                    | Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1 % para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes. .
+                    | Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1 % para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes. 
                   li 
                     i.fas.fa-check
-                    | Cuotas sindicales
+                    | Cuotas sindicales.
                   li 
                     i.fas.fa-check
                     | Aportes a cooperativas.
@@ -273,7 +273,7 @@
     Separador
 
     #t_2_5.titulo-segundo
-      .h4 2.5  Seguridad social y parafiscales
+      .h2 2.5  Seguridad social y parafiscales
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tarjeta.p-5
@@ -338,29 +338,43 @@
     Separador
 
     #t_2_6.titulo-segundo
-      .h4 2.6  Prestaciones sociales
-    p.mb-3 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarlos o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. Ver Figura 1.
+      .h2 2.6  Prestaciones sociales
+    p.mb-5 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarlos o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. Ver Figura 1.
 
-    h3.mb-3.titulo-tercero Clases de prestaciones sociales:
-
-      .row.justify-content-center.align-items-center.mt-5
-        .col-md.mb-5.mb-sm-0
-            figure
-              img.me-5(src="@/assets/curso/images/tema2/ico_6.svg" alt="", style="width:70px; display:block; margin:auto 0;")      
-            p <b>Cesantías.</b> Corresponde a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajador.
-            figure
-              img.me-5(src='@/assets/curso/images/tema2/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
-            .col
-              p <b>Intereses sobre cesantías.</b> El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual.               
-        .col-md.mb-5.mb-sm-0
-            figure
-              img.me-5(src='@/assets/curso/images/tema2/ico_8.svg' alt="", style="width:70px; display:block; margin:auto 0;")     
-            .col
-              p <b>Prima de servicios.</b> Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.          
-            figure
-              img(src='@/assets/curso/images/tema2/ico_9.svg' alt="", style="width:70px; display:block; margin:auto 0;")
-            .col
-              p <b>Vacaciones.</b> Corresponden a 15 días hábiles de descanso remunerado por cada año laborado, o proporcional por fracción de año si el tiempo laborado es inferior a un año (Dussán, 2020)
+    h5.mb-5.titulo-tercero Clases de prestaciones sociales:
+    .row
+      .col-lg-6
+        .row.justify-content-center.mb-3
+          .col-auto
+            ol.lista-ol
+              li 
+                span.h2.span.list_1.m-top  1 
+          .col-lg-8
+            p.mb-3  #[strong Cesantías] Corresponde a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajador.  
+      .col-lg-6
+        .row.justify-content-center.mb-3
+          .col-auto
+            ol.lista-ol
+              li 
+                span.h2.span.list_1.m-top  2
+          .col-lg-8
+            p.mb-3 #[strong Intereses sobre cesantías] El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual.
+      .col-lg-6
+        .row.justify-content-center.mb-3
+          .col-auto
+            ol.lista-ol
+              li 
+                span.h2.span.list_1.m-top  3
+          .col-lg-8
+            p.mb-3 #[strong  Prima de servicios] Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.  
+      .col-lg-6
+        .row.justify-content-center.mb-3
+          .col-auto
+            ol.lista-ol
+              li 
+                span.h2.span.list_1.m-top  4
+          .col-lg-8
+            p.mb-3 #[strong  Vacaciones]  Corresponden a 15 días hábiles de descanso remunerado por cada año laborado, o proporcional por fracción de año si el tiempo laborado es inferior a un año (Dussán, 2020)
           
     p.mb-3 Figura 1
 
@@ -429,21 +443,301 @@
     .jumbotron-gris.p-2
       p Nota. Tomada de Dussán (2019).
 
+    h3.mb-3.mt-5.titulo-tercero Depuración de la base sujeta a retención en la fuente
+    
+    p.mb-3 Consiste en restar todos los pagos que la ley ha considerado como rentas exentas, ingresos no constitutivos de renta o ganancia ocasional, y en general todos los que la ley consagra que se pueden restar para efectos de aplicar la retención en la fuente.
+
+    p.mb-3 El estatuto tributario contempla dos procedimientos para determinar la retención en la fuente por ingresos laborales y el agente de retención aplicará cualquiera de los dos según su voluntad o según lo solicite el trabajador sujeto a retención. 
+
+    p.mb-3 Para conocer estos métodos  y determinar la retención en la fuente, visite el sitio 
+
+    .row.mt-5.mb-5
+        .col-lg-6
+          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p Enlace web. retención en la fuente
+    
+    p.mb-3 de esta manera será más claro a partir de diversos ejemplos que lo llevarán a una situación real de la aplicabilidad de estos. 
+
+    Separador
 
 
+    #t_2_7.titulo-segundo
+      .h2 2.7 Salario integral
+
+    p.mb-3 Es una forma de remuneración que incluye prestaciones sociales, recargos nocturnos, dominical y festivo, y el trabajo extra, es decir, integra todos los conceptos en uno sólo, no incluye vacaciones. (Gerencie, 2021c).
+
+    p.mb-5 El salario integral es regulado por el artículo 132 del CST, así:
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6
+        .bloque-texto-d.color-primario.p-4
+          .bloque-texto-d__texto.mb-1
+            i.fas.fa-quote-left
+            span …2. No obstante lo dispuesto en los artículos 13, 14, 16, 21 y 340 del Código Sustantivo del Trabajo y las normas concordantes con estas, cuando el trabajador devengue un salario ordinario superior a diez (10) salarios mínimos legales mensuales, valdrá la estipulación escrita de un salario que además de retribuir el trabajo ordinario, compense de antemano el valor de prestaciones, recargos y beneficios tales como el correspondiente al trabajo nocturno, extraordinario o al dominical y festivo, primas legales, extralegales, las cesantías y sus intereses, subsidios y suministros en especie; y, en general, las que se incluyan en dicha estipulación, excepto las vacaciones.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            span   artículo 132 del CST
+      .col-12.col-md-8.col-lg-6.col-xl-6
+          img(src="@/assets/curso/images/tema2/img_13.svg" alt="", style="width:400px; display:block; margin: 0 auto;")
+
+    p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
+
+    p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
+
+    p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
+
+    h3.mb-3.titulo-tercero Depuración de la base sujeta a retención en la fuente
+
+    p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
+
+    p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
+
+    p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
+
+    h3.mb-3.titulo-tercero Características del salario integral:
+
+    .row.justify-content-center.align-items-center.mt-5
+        .col
+          .col-sm.mt-3
+
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  | Contrato por escrito.
+                li 
+                  i.fas.fa-check
+                  | Compuesto, mínimo, por 10 salarios mínimos legales mensuales, más 30 % adicional correspondiente a prestaciones sociales
+                li
+                  i.fas.fa-check
+                  | Vacaciones deben ser pagadas, cuando se tenga el derecho
+                li 
+                  i.fas.fa-check
+                  | Cotizar a la seguridad social y aportes parafiscales sobre el 70 % (Salud, Pensión, ARL, SENA, ICBF y Caja compensación).
+                
+    Separador
+
+    #t_2_8.titulo-segundo
+      .h2 2.8 Novedades
+
+    p.mb-3 Corresponde al reporte periódico y detallado de las diferentes situaciones laborales que se presentan en la nómina y que tienen efecto directo en la liquidación; entre ellas están: 
+
+    .row.justify-content-center.align-items-center.mt-5
+          .col-12.col-md-8.col-lg-6
+              img(src="@/assets/curso/images/tema2/img_14.svg" alt="", style="width:350px; display:block; margin:0 auto;")
+
+          .col-sm  
+            
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Modificaciones contractuales.
+              li 
+                i.fas.fa-check
+                | Descuentos legales.
+              li
+                i.fas.fa-check
+                | Descuentos voluntarios.
+              li 
+                i.fas.fa-check
+                | Sanciones.
+              li 
+                i.fas.fa-check
+                | Nuevos ingresos.
+              li 
+                i.fas.fa-check
+                | Despidos o retiros.
+              li 
+                i.fas.fa-check
+                | Licencias.
+              li 
+                i.fas.fa-check
+                | Trabajo extra.
+              li 
+                i.fas.fa-check
+                | Bonificaciones, comisiones, entre otros.
+            
+
+    #t_2_9.titulo-segundo
+      .h2 2.9 Liquidación de nómina
+
+    p.mb-3 Proceso mediante el cual se determina el valor a pagar por concepto de: salarios, prestaciones sociales, seguridad social y parafiscales, dependiendo la periodicidad en cada entidad (semanal, quincenal o mensual).
+
+    h3.mb-4.titulo-tercero Insumos:
+
+    .row.justify-content-center.align-items-center.mt-3
+          .col
+            .row
+              .col-sm.mb-5.mb-sm-0
+                ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    | Planilla de novedades del periodo (horas extras, recargos, bonificaciones, comisiones, entre otras.).
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    | Planilla o formato de nómina.
+
+    h3.mb-4.titulo-tercero Elementos en la liquidación de nómina:
+
+    .row.justify-content-center.align-items-center.mb-3
+          .col
+            .row
+              .col-sm.mb-5.mb-sm-0
+                ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    | Devengados.
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    | Deducciones.
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 3
+                    | Neto a pagar.
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 4
+                    | Aportes parafiscales y seguridad social
+                  li 
+                    .lista-ol--cuadro__vineta
+                      span 5
+                    | Prestaciones sociales.
+
+    h3.mb-3.titulo-tercero Fases y liquidación de nómina. 
+
+    LineaTiempoD.color-secundario.mb-5
+      .row(numero="1" titulo="Devengado")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema2/ico_44.svg', alt="", style="width:400px; display:block; margin:0 auto;")
+          
+        .col-md-6.mb-4.mb-md-0.p-5
+          p.mb-3 Se debe liquidar y relacionar cada concepto por separado correspondiente a lo ganado y al tiempo laborado.
+
+          .row.justify-content-center.align-items-center
+              .col-12
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Sueldo básico devengado = sueldo básico concertado entre las partes dividido 30 y multiplicado por días trabajados.
+                  li 
+                    i.fas.fa-check
+                    | Auxilio de transporte devengado = auxilio transporte vigente dividido 30 y multiplicado por días trabajados.
+                  li 
+                    i.fas.fa-check
+                    | Demás conceptos liquidados previamente
 
 
+      .row(numero="2" titulo="Deducciones")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema2/ico_45.svg', alt="", style="width:400px; display:block; margin:0 auto;")
+          
+        .col-md-6.mb-4.mb-md-0.p-4
+          p.mb-3 Se debe liquidar y relacionar cada concepto por separado correspondiente a lo descontado. (Salud, Pensión, Retención en la fuente, otros descuentos).
+          .row.justify-content-center.align-items-center
+              .col-12
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p <b>Salud =</b> Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4 %, 2020) 
+                  li 
+                    i.fas.fa-check
+                    p <b>Pensión =</b> Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4 %, 2020)
+                  li 
+                    i.fas.fa-check
+                    p <b>Fondo de solidaridad pensional = </b> Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador, a partir de 4 salarios mínimos vigentes. 
+                  li 
+                    i.fas.fa-check
+                    p <b>Retención en la fuente = </b> Según previa liquidación.
+                  li 
+                    i.fas.fa-check
+                    p <b>Otros.</b>
 
 
+      .row(numero="3" titulo="Neto a pagar")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema2/ico_46.svg', alt="", style="width:400px; display:block; margin:0 auto;")
+      
+        .col-md-6.mb-4.mb-md-0.p-5
+          p.mb-3 Según la liquidación de cada trabajador, se dispone al restar el total de deducciones del total devengado.
+          
+      .row(numero="4" titulo="Aportes parafiscales y seguridad social")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema2/ico_47.svg', alt="", style="width:400px; display:block; margin:0 auto;")
+          
+        .col-md-6.mb-4.mb-md-0.p-4
+          p.mb-3 Teniendo en cuenta el Ingreso Base de Cotización “IBC” se calcularán los siguientes aportes que debe realizar el empleador:
+          .row.justify-content-center.align-items-center
+              .col-12
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p <b>SENA:</b>  2 % (Revisar exoneración)
+                  li 
+                    i.fas.fa-check
+                    p <b>ICBF:</b>  3 % (Revisar exoneración)
+                  li 
+                    i.fas.fa-check
+                    p <b>Caja compensación:</b>  4 %
+                  li 
+                    i.fas.fa-check
+                    p <b>Salud: </b> 8.5 % (Revisar exoneración)
+                  li 
+                    i.fas.fa-check
+                    p <b>ARL:</b> Según riesgo de cada trabajador
+                  li 
+                    i.fas.fa-check
+                    p <b>Pensión:</b> 12%
 
+      .row(numero="5" titulo="Prestaciones sociales")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema2/ico_48.svg', alt="", style="width:400px; display:block; margin:0 auto;")
+          
+        .col-md-6.mb-4.mb-md-0.p-4
+          p.mb-3 Teniendo en cuenta el total devengado de cada trabajador, se liquidará el valor de la provisión a cada una de las prestaciones o beneficios a empleados.
+          .row.justify-content-center.align-items-center
+              .col-12
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p <b>Cesantías =:</b> Total devengado x 8.33 %
+                  li 
+                    i.fas.fa-check
+                    p <b>Intereses sobre cesantías =</b>   Total devengado x 1 %
+                  li 
+                    i.fas.fa-check
+                    p <b>Prima de servicios =</b>   Total devengado x 8.33 %
+                  li 
+                    i.fas.fa-check
+                    p <b>Vacaciones = </b>  Total devengado x 4.17 %
+    p.mb-3 Recuerde explorar las páginas sugeridas y la Biblioteca SENA para ampliar conocimientos. A continuación, se relaciona el enlace de apoyo:
 
-
-
-
-
-
-
-
+    .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema2/ico_5.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Contabilidad financiera, correlacionado con NIIF. (2ª ed.)
+              .h6.mb-0 Angulo, U. (2018). Ediciones de la U. 
+    
+            .col-sm-auto
+              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ver
+                i.fas.fa-file-download
+                   
 
 
 

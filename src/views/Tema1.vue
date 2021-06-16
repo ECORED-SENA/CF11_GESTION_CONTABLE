@@ -66,7 +66,7 @@
     Separador
 
     #t_1_1.titulo-segundo
-      h2 1.1   Política contable
+      .h2 1.1   Política contable
     p.mb-3 Es un conjunto de principios, reglas y procedimientos específicos que son adoptados por una entidad para preparar y realizar los estados o documentos contables.  (Moncayo, 2017)
     p Consultando políticas contables de entidades, se encuentra la siguiente estructura, la cual es definida por las Normas Internacionales de la Información Financiera (NIIF):
 
@@ -115,7 +115,7 @@
 
     Separador
     #t_1_2.titulo-segundo
-      h2 1.2    Contrato de trabajo, elementos y tipos de contrato de trabajo
+      .h2 1.2    Contrato de trabajo, elementos y tipos de contrato de trabajo
     h3.mb-3.titulo-tercero Definición contrato de trabajo
 
     p.mb-3 De acuerdo con el CST en el Articulo 22,
@@ -304,7 +304,7 @@
                     td Derecho al pago de prestaciones sociales en proporción al tiempo laborado.
     Separador
     #t_1_2.titulo-segundo
-      h2 1.3  Deberes y derechos de empleado y empleador
+      .h2 1.3  Deberes y derechos de empleado y empleador
     
     p.mb-3 En la relación contractual, a diario se presentan diversas situaciones de inconformidad que afectan a las partes interesadas en la ejecución de un contrato de trabajo; es por ello que se hace importante resaltar que la ley protege a cada una de las personas que intervienen en un conflicto laboral. Por tal motivo se invita a profundizar sobre los deberes y derechos, tanto para el empleador como para el empleado.
 
@@ -406,7 +406,7 @@
           | La trabajadora en estado de embarazo debe empezar a disfrutar la licencia remunerada consagrada en el numeral 1 del Artículo 236, al menos una semana antes de la fecha probable del parto. (CST, 2020, art. 58 párr. 1-8)
 
     #t_1_4.titulo-segundo
-      h2.mt-5 1.4   Causales de terminación del contrato de trabajo e indemnizaciones
+      .h2.mt-5 1.4   Causales de terminación del contrato de trabajo e indemnizaciones
     h3.mb-3.titulo-tercero Causales generales
     p.mb-5 Un contrato de trabajo se puede dar por terminado cuando se presente cualquiera de las siguientes causas. Según el Artículo 61 del CST, estas son:
 
@@ -566,22 +566,6 @@
 
 
 
-
-
-
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    Muestras
   
 </template>
 
