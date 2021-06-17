@@ -24,116 +24,34 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Legislación laboral',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Política contable',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo:
+              'Contrato de trabajo, elementos y tipos de contrato de trabajo',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Deberes y derechos de empleado y empleador',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo:
+              'Causales de terminación del contrato de trabajo e indemnizaciones',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,55 +59,67 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Nómina',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Política contable',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Trabajo extra y recargos ',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Devengado',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Deducciones',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
+            titulo: 'Seguridad social y parafiscales',
             hash: 't_2_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.6',
-            titulo: 'Infografías',
+            titulo: 'Prestaciones sociales',
             hash: 't_2_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.7',
+            titulo: 'Salario integral',
+            hash: 't_2_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.8',
+            titulo: 'Novedades',
+            hash: 't_2_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.9',
+            titulo: 'Liquidación de nómina',
+            hash: 't_2_9',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -220,134 +150,173 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2ª ed.). Ediciones de la U.',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
+    },
+    {
+      referencia: 'CAFASUR. (2018, 23 febrero). Aportes parafiscales.',
+      link: 'https://www.cafasur.com.co/subsidios/aportes-parafiscales',
+    },
+    {
+      referencia:
+        'Castro, Y. (2020, 23 julio). Obligaciones de los trabajadores. consultorcontable.com. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.consultorcontable.com/obligaciones-de-los-trabajadores',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Comité de Normas Internacionales de Contabilidad. (1998). Beneficios a los empleados (NIC 19).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www2.deloitte.com/content/dam/Deloitte/cr/Documents/audit/documentos/niif-2019/NIC%2019%20-%20Beneficios%20a%20los%20Empleados.pdf',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Coral, L. y Gudiño, E. (2014). Contabilidad universitaria. (7.a ed.). McGraw Hill - Colombia ',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=105',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Dussán, W. (2019, 8 enero). Tarifa de retención en la fuente por ingresos laborales ley 1943. consultorcontable.com.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.consultorcontable.com/tarifa-de-retenci%C3%B3n-en-la-fuente-por-ingresos-laborales-ley-1943/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Dussán, W. (2020). Prestaciones sociales. consultorcontable.com',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.consultorcontable.com/datos-hist%C3%B3ricos/prestaciones-sociales/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Gerencie.com. (2019, 26 marzo). Elementos del contrato de trabajo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        ' https://www.gerencie.com/elementos-del-contrato-de-trabajo.html#:%7E:text=El%20art%C3%ADculo%2023%20del%20c%C3%B3digo,Retribuci%C3%B3n%20o%20remuneraci%C3%B3n%20del%20servicio',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Gerencie.com. (2020a, 3 febrero). ¿Cómo se liquidan las horas extras? ',
+      link: 'https://www.gerencie.com/como-se-liquidan-las-horas-extras.html',
+    },
+    {
+      referencia:
+        'Gerencie.com. (2020b, junio 13). Retención en la fuente por ingresos laborales. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.gerencie.com/retencion-en-la-fuente-por-ingresos-laborales.html',
+    },
+    {
+      referencia:
+        'Gerencie.com. (2021a, febrero 8). ¿Qué es la seguridad social? ',
+      link:
+        'https://www.gerencie.com/que-es-la-seguridad-social-en-una-relacion-laboral.html',
+    },
+    {
+      referencia:
+        'Gerencie.com. (2021b, 20 abril). Exoneración de aportes parafiscales y seguridad social',
+      link:
+        'https://www.gerencie.com/exoneracion-de-aportes-a-seguridad-social-y-parafiscales.html',
+    },
+    {
+      referencia:
+        'Ginnamarce. (2014, septiembre). Derecho laboral colombiano. ginnamaece.wordpress.com.',
+      link: 'https://ginnamaece.wordpress.com/derecho-familiar/.',
+    },
+    {
+      referencia:
+        'Hernandez, C. (2015, 9 noviembre). ¿Cuáles son las justas causas que tiene el empleador para dar por terminado el contrato de trabajo? Instituto Nacional de Contadores Públicos de Colombia',
+      link:
+        'https://incp.org.co/cuales-son-las-justas-causas-que-tiene-el-empleador-para-dar-por-terminado-el-contrato-de-trabajo/',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Contadores Públicos de Colombia. (s. f.). Código Sustantivo del Trabajo.',
+      link: 'https://incp.org.co/Site/productosyservicios/legislativa/cst.htm',
+    },
+    {
+      referencia:
+        'Ministerio de la Protección Social. (2008, 22 agosto) Terminación unilateral del contrato de trabajo sin justa 	causa. cijuf.org.co',
+      link: 'https://cijuf.org.co/conceptosminproteccion/agosto/c246299.html',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. Republica de Colombia. (2013). Formas y libertad de estipulación.',
+      link:
+        'http://www.comunidadcontable.com/BancoMedios/Documentos%20PDF/cpto-2556-%2013.pdf',
+    },
+    {
+      referencia:
+        'Moncayo, C. (2015, 21 septiembre). ¿Cuáles son las justas causas que tiene el trabajador para dar por terminado el contrato de trabajo? Instituto Nacional de Contadores Públicos de Colombia',
+      link:
+        'https://incp.org.co/cuales-son-las-justas-causas-que-tiene-el-trabajador-para-dar-por-terminado-el-contrato-de-trabajo/',
+    },
+    {
+      referencia:
+        'Moncayo, C. (2017, 11 diciembre). Políticas Contables. Instituto Nacional de Contadores Públicos de Colombia.',
+      link: 'https://incp.org.co/politicas-contables-2/',
+    },
+    {
+      referencia:
+        'Moreno, S. (2013, 24 mayo). El derecho laboral colombiano. derecho-laboral8.webnode.com.co.',
+      link:
+        ' https://derecho-laboral8.webnode.com.co/news/el-derecho-laboral-colombiano/',
+    },
+    {
+      referencia:
+        'Secretaría del Senado (2020, 6 noviembre). Código Sustantivo del Trabajo.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html',
+    },
+    {
+      referencia:
+        'Varón, L. (2014, 24 abril). Qué debe contener una política contable. Gerencie.com',
+      link:
+        'https://www.gerencie.com/que-debe-contener-una-politica-contable.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Persona natural',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Individuo que al actuar en su propio nombre se ocupa de alguna o algunas actividades que la ley considera mercantiles.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Provisión',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Valores que deben ser reconocidos, hoy, con el propósito de ser desembolsados en el futuro..',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Ingreso Base de Cotización IBC',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Se utiliza para calcular los aportes a seguridad social y parafiscales.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Agente de retención',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Persona natural o jurídica que ha sido designada para que efectúe la retención en la fuente cuando haga un pago que esté sometido a retención.',
     },
     {
-      termino: 'Moda',
+      termino: 'Depuración',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Determinación de la base para calcular impuestos, restando a los ingresos totales todos los beneficios posibles que la legislación tributaria consagra.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Rentas exentas',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son un tipo de ingresos que, aun siendo ingresos fiscales, no están sujetos al impuesto de renta y complementarios.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Decreto 1072 de 2015. [Ministerio del Trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015 (versión actualizada abril 15 de 2016).',
+      tipo: 'Decreto',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2ª ed.). Ediciones de la U.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
     },
   ],
   creditos: {
@@ -379,13 +348,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Luis Arevalo'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

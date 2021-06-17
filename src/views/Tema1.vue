@@ -21,44 +21,47 @@
       .col-12.col-md-8.col-lg-6.col-xl-6
         .jumbotron-blue.p-4
           .row
-            .col-12.col-md-8.col-lg-6.col-xl-6
+            .col-12.col-md-8.col-lg-8.col-xl-12
               p TÍTULO PRELIMINAR	
               p PRINCIPIOS GENERALES	
               p PRIMERA PARTE	
               p DERECHO INDIVIDUAL DEL TRABAJO	
-              p  TITULO I.
-              p  CONTRATO INDIVIDUAL DE TRABAJO
-              p  TITULO II.
-              p  PERIODO DE PRUEBA Y APRENDIZAJE
-              p  TITULO III.
-              p CONTRATO DE TRABAJO CON DETERMINADOS TRABAJADORES
-              p  TITULO VI.
-              p  JORNADA DE TRABAJO
-              p  TITULO VII.
-              p DESCANSOS OBLIGATORIOS
-              p  TITULO VIII.
-              p PRESTACIONES PATRONALES COMUNES
-              p TITULO IX.
-              p  PRESTACIONES PATRONALES ESPECIALES
-              p  TITULO X.
+              p.p  TITULO I.
+              p.p  CONTRATO 
+              p.p  INDIVIDUAL DE TRABAJO
+              p.p   TITULO II.
+              p.p   PERIODO DE PRUEBA Y APRENDIZAJE
+              p.p   TITULO III.
+              p.p  CONTRATO DE TRABAJO CON DETERMINADOS 
+              p.p   TRABAJADORES
+              p.p   TITULO VI.
+              p.p   JORNADA DE TRABAJO
+              p.p   TITULO VII.
+              p.p  DESCANSOS OBLIGATORIOS
+              p.p   TITULO VIII.
+              p.p  PRESTACIONES PATRONALES COMUNES
+              p.p  TITULO IX.
+              p.p   PRESTACIONES PATRONALES ESPECIALES
+              p.p   TITULO X.
               p NORMAS PROTECTORAS DE LAS PRESTACIONES
-              p  TITULO XI.
-              p.mb-3  HIGIENE Y SEGURIDAD EN EL TRABAJO
+              p.p  TITULO XI.
+              p.p.mb-3  HIGIENE Y SEGURIDAD EN EL TRABAJO
 
               p SEGUNDA PARTE	
               p DERECHO COLECTIVO DEL TRABAJO	
-              p TITULO I.
-              p  SINDICATOS
-              p  TITULO II.
-              p  CONFLICTOS COLECTIVOS DE TRABAJO
-              p  TITULO III.
-              p  CONVENCIONES PACTOS COLECTIVOS Y CONTRATOS SINDICALES
+              p.p TITULO I.
+              p.p  SINDICATOS
+              p.p  TITULO II.
+              p.p  CONFLICTOS COLECTIVOS DE TRABAJO
+              p.p  TITULO III.
+              p.p  CONVENCIONES PACTOS COLECTIVOS Y CONTRATOS 
+              p.p SINDICALES
               p TERCERA PARTE	
               p VIGILANCIA, CONTROL Y DISPOSICIONES FINALES	
-              p  TITULO I.
-              p  VIGILANCIA Y CONTROL
-              p  TITULO II.
-              p  DISPOSICIONES FINALES
+              p.p  TITULO I.
+              p.p  VIGILANCIA Y CONTROL
+              p.p  TITULO II.
+              p.p  DISPOSICIONES FINALES
 
     .jumbotron-gris.p-2
       p Instituto Nacional de Contadores Públicos (INCP, s.f.)
@@ -170,7 +173,7 @@
           p.mb-3 En cuanto a lo que afirma la norma, esta lo define como: “Un salario como retribución del servicio”. (INCP, s.f.)
           p.mb-3 Finalmente, para profundizar en los temas propuestos en el CST, se sugiere ingresar a través del siguiente enlace:
         
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -246,7 +249,7 @@
               .h5.mb-0 Enlace web - Ministerio de Trabajo
     
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="obtenerLink('https://www.mintrabajo.gov.co/normatividad/leyes-y-decretos-ley/codigos')" target="_blank")
                 span Ver
                 i.fas.fa-file-download
       
@@ -258,7 +261,7 @@
 
       .row.mt-5.mb-5
         .col-lg-6
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=105" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -266,42 +269,89 @@
                   p Carmen y Gudiño (2014). 
     
           h6.mt-5.mb-3 Ejemplo:
-
+      .row.justify-content-center.align-items-center.mb-4
         .col-12
-            .tabla-a.color-acento-contenido.mb-2
-              table
-                thead
-                  tr.th-1.text-center
-                    th Clase de contrato
-                    th No.
-                    th Características generales
-                  tr
-                    td.text-center Accidental o transitorio
-                    td
-                    td Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.
-                  tr
-                    td.text-center  
-                    td 
-                    td Derecho al pago de prestaciones sociales en proporción al tiempo laborado.
+            table
+              tr.th-1.text-center
+                th.element
+                th.element Clase de contrato
+                th.element No.
+                th.element Características generales
+                  
+              tbody
+                tr.th-color-1
+                  td.text-center.element <b>1</b>
+                  td.element Accidental o transitorio
+                  td.element 
+                  td.element Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.#[BR]#[BR]Derecho al pago de prestaciones sociales en proporción al tiempo laborado. #[BR]#[BR] Empleador puede terminar el contrato reconociendo indemnización, según la ley.
+                tr.th-color-2
+                  td.text-center.element  <b>2</b>
+                  td.element De obra o labor
+                  td.element 
+                  td.element La duración del contrato debe ser inferior a un mes. #[BR]#[BR] Las partes no determinan su duración #[BR]#[BR] No devengan prestaciones sociales.
+                tr.th-color-1
+                  td.text-center.element <b>3</b>
+                  td.element A término fijo
+                  td.element 
+                  td.element No requieren celebrarse por escrito. #[BR]#[BR] Se usan para realizar un trabajo ocasional que no tiene relación con las actividades normales del empleador. #[BR]#[BR] Son usuales para ejecutar una labor u obra específica.
+                tr.th-color-2
+                  td.text-center.element <b>4</b>
+                  td.element A término indefinido
+                  td.element 
+                  td.element Su duración no puede exceder los tres años. #[BR]#[BR] Tiene un término equivalente a la duración de la obra o labor encomendada.
+    
 
-      p.mb-3 Una vez realizada la tabla de ejemplo, se debe comparar con las siguientes respuestas:          
+      p.mt-5.mb-5 Una vez realizada la tabla de ejemplo, se debe comparar con las siguientes respuestas:          
 
+      .row.justify-content-center.align-items-center.mb-4
         .col-12
-            .tabla-a.color-acento-contenido.mb-2
-              table
-                thead
-                  tr.th-1.text-center
-                    th Clase de contrato
-                    th No.
-                    th Características generales
-                  tr
-                    td.text-center Accidental o transitorio
-                    td.text-center 3
-                    td Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.
-                  tr
-                    td.text-center  
-                    td.text-center 3
-                    td Derecho al pago de prestaciones sociales en proporción al tiempo laborado.
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr.th-1.text-center
+                  th
+                  th Clase de contrato
+                  th No.
+                  th Características generales
+                  
+              tbody
+                tr.th-color-1
+                  td.text-center.element <b>1</b>
+                  td.element Accidental o transitorio
+                  td.text-center.element 
+                    p.mb-5 3
+                    br
+                    p.mb-4 3
+                    br
+                    p.mt-5 4 
+                  td.element Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.#[BR]#[BR]Derecho al pago de prestaciones sociales en proporción al tiempo laborado. #[BR]#[BR] Empleador puede terminar el contrato reconociendo indemnización, según la ley.
+                tr.th-color-2
+                  td.text-center.element  <b>2</b>
+                  td.element De obra o labor
+                  td.text-center.element
+                    p.mb-5 1
+                    p.mb-5 4
+                    p 1 
+                  td.element La duración del contrato debe ser inferior a un mes. #[BR]#[BR] Las partes no determinan su duración #[BR]#[BR] No devengan prestaciones sociales.
+                tr.th-color-1
+                  td.text-center.element <b>3</b>
+                  td.element A término fijo
+                  td.text-center.element 
+                    p.mb-5 1 
+                    br
+                    p.mb-5 1
+                    br
+                    p 2
+                  td.element No requieren celebrarse por escrito. #[BR]#[BR] Se usan para realizar un trabajo ocasional que no tiene relación con las actividades normales del empleador. #[BR]#[BR] Son usuales para ejecutar una labor u obra específica.
+                tr.th-color-2
+                  td.text-center.element <b>4</b>
+                  td.element A término indefinido
+                  td.text-center.element
+                    p.mb-2 3
+                    br
+                    br
+                    p.mb-5 2
+                  td.element Su duración no puede exceder los tres años. #[BR]#[BR] Tiene un término equivalente a la duración de la obra o labor encomendada.
     Separador
     #t_1_2.titulo-segundo
       .h2 1.3  Deberes y derechos de empleado y empleador
@@ -534,7 +584,7 @@
             .lista-ol--cuadro__vineta
               span 7
             |  La exigencia del empleador, sin razones válidas, de la prestación de un servicio distinto, o en lugares diversos de aquel para el cual se le contrató, y cualquier violación grave de las obligaciones o prohibiciones que incumben al empleador, de acuerdo con los Artículos 57 y 59 del CST, o cualquier falta grave calificada como tal en pactos o convenciones colectivas, fallos arbitrales, contratos individuales o reglamentos. (Moncayo, 2015, párr. 1)
-
+    
       .col-12.col-md-8.col-lg-6.col-xl-6
         ol.lista-ol--cuadro.lista-ol--separador
           li 

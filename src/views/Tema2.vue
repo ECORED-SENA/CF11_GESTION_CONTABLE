@@ -208,7 +208,7 @@
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_40.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
-            .p-3
+            .p-2
               h2 Ejemplo 1.
               p <b>Sueldo básico devengado:</b> Si un trabajador inicia a laborar el día 2 de marzo, con un sueldo concertado con la empresa de $1.200.000, el valor devengado en el mes corresponde a $1.160.000..
 
@@ -216,7 +216,7 @@
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_41.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
-            .p-3
+            .p-2
               h2 Ejemplo 2.
               p  <b>Auxilio de transporte devengado:</b> Si un trabajador inicia a laborar el día 11 de marzo, con un auxilio de transporte, según la ley $102.854, el valor devengado en el mes corresponde a $68.569 (20 días).
 
@@ -332,6 +332,31 @@
               td.text-center 12 %
               td.text-center 4 %
               td.text-center 16 %
+            tr
+              td <b>*ARL</b> 
+              td.text-center 0.522 %
+              td.text-center 0 %
+              td.text-center 0.522
+            tr
+              td <b>Fondo de solidaridad</b> 
+              td.text-center 0 %
+              td.text-center 1 %
+              td.text-center 1 %
+            tr
+              td <b>Caja de compensación</b> 
+              td.text-center 4 %
+              td.text-center 0 %
+              td.text-center 4 %
+            tr
+              td <b>ICBF</b> 
+              td.text-center 3 %
+              td.text-center 0 %
+              td.text-center 3 %
+            tr
+              td <b>SENA</b> 
+              td.text-center 2 %
+              td.text-center 0 %
+              td.text-center 2 %
 
     p.mb-3 *ARL: La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348 % para el nivel I y 8.7 % para el nivel V de riesgo. La tarifa más común es del 0.522 %.          
 
@@ -430,7 +455,7 @@
               th 
           tbody
             tr
-              td.text-center 8.5 %
+              td.text-center 0
               td.text-center 95
               td.text-center 0 %
               td.text-center 0
@@ -439,6 +464,31 @@
               td.text-center 150
               td.text-center 19  %
               td.text-center (Ingreso laboral gravado expresado en UVT menos 95 UVT) x 19 %
+            tr
+              td.text-center > 150
+              td.text-center 360
+              td.text-center 28 %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 150 UVT) x 28 % más 10 UVT
+            tr
+              td.text-center > 360
+              td.text-center 640
+              td.text-center 33 %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 360 UVT) x 33 % más 69 UVT
+            tr
+              td.text-center > 640
+              td.text-center 945
+              td.text-center 35 %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 640 UVT) x 35 % más 162 UVT
+            tr
+              td.text-center > 945
+              td.text-center 2.300
+              td.text-center 37 %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 945 UVT) x 37 % más 268 UVT
+            tr
+              td.text-center > 2.300
+              td.text-center En adelante
+              td.text-center 39 %
+              td.text-center (Ingreso laboral gravado expresado en UVT menos 2300 UVT) x 39 % más 770 UVT.
 
     .jumbotron-gris.p-2
       p Nota. Tomada de Dussán (2019).
@@ -453,7 +503,7 @@
 
     .row.mt-5.mb-5
         .col-lg-6
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.gerencie.com/retencion-en-la-fuente-por-ingresos-laborales.html#Procedimientos_de_retencion_en_la_fuente_por_salarios" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -734,7 +784,7 @@
               .h6.mb-0 Angulo, U. (2018). Ediciones de la U. 
     
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="obtenerLink('http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047')" target="_blank")
                 span Ver
                 i.fas.fa-file-download
                    
