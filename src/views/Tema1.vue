@@ -17,15 +17,15 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6
-        img.img-a.my-3(src="@/assets/curso/images/tema1/img_1.svg" alt="", style="width:500px; display:block; margin:0 auto;")
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="", style="width:900px; display:block; margin:0 auto;")
       .col-12.col-md-8.col-lg-6.col-xl-6
         .jumbotron-blue.p-4
           .row
-            .col-12.col-md-8.col-lg-8.col-xl-12
-              p TÍTULO PRELIMINAR	
-              p PRINCIPIOS GENERALES	
-              p PRIMERA PARTE	
-              p DERECHO INDIVIDUAL DEL TRABAJO	
+            .col-12.col-md-8.col-lg-10.col-xl-12
+              p <b>TÍTULO PRELIMINAR</b>	
+              p <b>PRINCIPIOS GENERALES</b>
+              p <b>PRIMERA PARTE</b>	
+              p <b>DERECHO INDIVIDUAL DEL TRABAJO</b>
               p.p  TITULO I.
               p.p  CONTRATO 
               p.p  INDIVIDUAL DE TRABAJO
@@ -43,12 +43,12 @@
               p.p  TITULO IX.
               p.p   PRESTACIONES PATRONALES ESPECIALES
               p.p   TITULO X.
-              p NORMAS PROTECTORAS DE LAS PRESTACIONES
+              p <b>NORMAS PROTECTORAS DE LAS PRESTACIONES</b>
               p.p  TITULO XI.
               p.p.mb-3  HIGIENE Y SEGURIDAD EN EL TRABAJO
 
-              p SEGUNDA PARTE	
-              p DERECHO COLECTIVO DEL TRABAJO	
+              p <b>SEGUNDA PARTE</b>	
+              p <b>DERECHO COLECTIVO DEL TRABAJO</b>	
               p.p TITULO I.
               p.p  SINDICATOS
               p.p  TITULO II.
@@ -56,8 +56,8 @@
               p.p  TITULO III.
               p.p  CONVENCIONES PACTOS COLECTIVOS Y CONTRATOS 
               p.p SINDICALES
-              p TERCERA PARTE	
-              p VIGILANCIA, CONTROL Y DISPOSICIONES FINALES	
+              p <b>TERCERA PARTE</b>	
+              p <b>VIGILANCIA, CONTROL Y DISPOSICIONES FINALES</b>	
               p.p  TITULO I.
               p.p  VIGILANCIA Y CONTROL
               p.p  TITULO II.
@@ -65,6 +65,21 @@
 
     .jumbotron-gris.p-2
       p Instituto Nacional de Contadores Públicos (INCP, s.f.)
+                
+    .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema2/ico_4.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 
+              p.p Es de resaltar la importancia de conocer el contenido del CST, para ello se invita a observar 
+              p.p su estructura general #a través del siguiente enlace: 
+            .col-sm-auto
+              a.boton.boton--c(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
     Separador
 
@@ -96,7 +111,7 @@
             | Alcance de la política contable (en qué casos aplica esta política contable y en qué casos no aplica).
           li 
             i.fas.fa-check
-            | Responsabilidades (preparación y mantenimiento en el tiempo de la política contable- preferiblemente debe ser un cargo y no una person
+            | Responsabilidades (preparación y mantenimiento en el tiempo de la política contable- preferiblemente debe ser un cargo y no una persona).
           li 
             i.fas.fa-check
             | Normas aplicables NIIF aplicable, (normas legales locales que deben ser observadas).
@@ -121,11 +136,11 @@
       .h2 1.2    Contrato de trabajo, elementos y tipos de contrato de trabajo
     h3.mb-3.titulo-tercero Definición contrato de trabajo
 
-    p.mb-3 De acuerdo con el CST en el Articulo 22,
+    p.mb-3 De acuerdo con el CST en el Articulo 22
 
     .row.justify-content-center.align-items-center.mb-5
           .col-8
-            .bloque-texto-d.color-primario.p-4
+            .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
                 span.h5 “Contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante la remuneración o salario”
@@ -147,8 +162,7 @@
             img(src='@/assets/curso/images/tema1/img_2.svg', alt="", style="width:400px; display:block; margin:0 auto;")
           
         .col-md-6.mb-4.mb-md-0.p-5
-          p.mb-3 El primer elemento de un contrato de trabajo es la prestación personal del servicio por parte del trabajador. “La actividad personal del trabajador, es decir, realizada por sí mismo”, según el CST.
-
+          p.mb-3 El primer elemento de un contrato de trabajo es la prestación personal del servicio por parte del trabajador. <b>“La actividad personal del trabajador, es decir, realizada por sí mismo”</b>, según el CST.
           p En otras palabras, se podría decir que el trabajador debe realizar el trabajo contratado de forma personalizada, de modo que la ejecución no puede ser delegada a un tercero. 
 
       .row(numero="2" titulo="La continuada subordinación")
@@ -191,7 +205,7 @@
           img(src='@/assets/curso/images/tema1/ico_1.svg', alt="", style="width:150px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
             .p-4
-              h2.text-center Accidental o transitorio:
+              h5.text-center Accidental o transitorio:
               p Es un contrato que se realiza por una actividad determinada para suplir una necesidad momentánea. Su duración es máxima de un mes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -200,7 +214,7 @@
          
           .tarjeta.tarjeta--azul
             .p-4
-              h2.text-center De obra o labor:
+              h5.text-center De obra o labor:
               p Es un contrato donde se realizan actividades específicas, su duración tiene un término equivalente a la duración de la obra.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -209,7 +223,7 @@
 
           .tarjeta.tarjeta--azul
             .p-4
-              h2.text-center  A término fijo:
+              h5.text-center  A término fijo:
               p Es el acuerdo entre empleador y trabajador, su duración tiene una fecha específica, la cual no puede exceder de tres años.
      
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -218,7 +232,7 @@
 
             .tarjeta.tarjeta--azul
               .p-4
-                h2.text-center  A término indefinido:
+                h5.text-center  A término indefinido:
                 p Es el contrato que no establece duración del contrato. (Carmen y Gudiño, 2014, p. 16)
 
     p.mb-3 Existen otros contratos de trabajo, los cuales se relacionan a continuación:
@@ -237,8 +251,6 @@
             i.fas.fa-check
             | Contrato de aprendizaje
 
-    p.mb-3 Existen otros contratos de trabajo, los cuales se relacionan a continuación:
-
     .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -255,7 +267,7 @@
       
 
     .jumbotron-cafe.p-5
-      p.mb-3 Afiance los conceptos. Se invita a desarrollar la siguiente actividad, para fortalecer los conocimientos. Consiste en relacionar el número que corresponde a la clase de contrato con sus características, escribiendo el numeral al que corresponde en la columna No.
+      p.mb-3 <b>Afiance los conceptos.</b> Se invita a desarrollar la siguiente actividad, para fortalecer los conocimientos. Consiste en relacionar el número que corresponde a la clase de contrato con sus características, escribiendo el numeral al que corresponde en la columna No.
 
       p Para su elaboración, se puede indagar en el siguiente libro: Contabilidad universitaria. 
 
@@ -353,18 +365,18 @@
                     p.mb-5 2
                   td.element Su duración no puede exceder los tres años. #[BR]#[BR] Tiene un término equivalente a la duración de la obra o labor encomendada.
     Separador
-    #t_1_2.titulo-segundo
+    #t_1_3.titulo-segundo
       .h2 1.3  Deberes y derechos de empleado y empleador
     
     p.mb-3 En la relación contractual, a diario se presentan diversas situaciones de inconformidad que afectan a las partes interesadas en la ejecución de un contrato de trabajo; es por ello que se hace importante resaltar que la ley protege a cada una de las personas que intervienen en un conflicto laboral. Por tal motivo se invita a profundizar sobre los deberes y derechos, tanto para el empleador como para el empleado.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6
-        p.mb-3 Los deberes y derechos están consagrados en el CST desde el Artículo 56. Obligaciones de las partes en general.
+        p.mb-3 Los deberes y derechos están consagrados en el CST desde el <b>Artículo 56. Obligaciones de las partes en general.</b>
 
         p.mb-3 De modo general, incumben al empleador obligaciones de protección y de seguridad para con los trabajadores, y a estos, obligaciones de obediencia y fidelidad para con el empleador.
 
-        p.mb-3 De acuerdo con el CST, se establecen en el Artículo 57. Las obligaciones especiales del empleador, a saber: 
+        p.mb-3 De acuerdo con el CST, se establecen en el <b>Artículo 57. Las obligaciones especiales del empleador,</b> a saber: 
         
       .col-12.col-md-8.col-lg-6.col-xl-6
         img.img-a.my-3(src="@/assets/curso/images/tema1/img_5.svg" alt="", style="width:400px; display:block; margin:0 auto;") 
@@ -413,10 +425,10 @@
         h3 
         p Conceder en forma oportuna a la trabajadora en estado de embarazo, la licencia remunerada consagrada en el numeral 1 del Artículo 236, de forma tal que empiece a disfrutarla de manera obligatoria una (1) semana antes o dos (2) semanas antes de la fecha probable del parto, según decisión de la futura madre conforme al certificado médico a que se refiere el numeral 3 del citado Artículo 236. (CST, 2020, art. 57 párr. 1-11)
 
-    p.mb-5 Así mismo, se establece en el CST el Artículo 58. Obligaciones especiales del trabajador, en el que se relaciona:
+    p.mb-5 Así mismo, se establece en el CST el <b>Artículo 58. Obligaciones especiales del trabajador</b>, en el que se relaciona:
 
 
-    .col-sm.mb-5.mb-sm-0
+    .col-sm.mb-5.mb-sm-0.mb-5
       ol.lista-ol--cuadro.lista-ol--separador
         li 
           .lista-ol--cuadro__vineta
@@ -448,13 +460,10 @@
           | Observar con suma diligencia y cuidado las instrucciones y órdenes preventivas de accidentes o de enfermedades profesionales.
         li 
           .lista-ol--cuadro__vineta
-            span h
-          | Observar con suma diligencia y cuidado las instrucciones y órdenes preventivas de accidentes o de enfermedades profesionales.
-        li 
-          .lista-ol--cuadro__vineta
             span i
           | La trabajadora en estado de embarazo debe empezar a disfrutar la licencia remunerada consagrada en el numeral 1 del Artículo 236, al menos una semana antes de la fecha probable del parto. (CST, 2020, art. 58 párr. 1-8)
-
+    
+    p.mt-5 El CST consagra las causas justas para dar por terminado unilateralmente el contrato de trabajo, por parte del <b>empleador:</b>
     #t_1_4.titulo-segundo
       .h2.mt-5 1.4   Causales de terminación del contrato de trabajo e indemnizaciones
     h3.mb-3.titulo-tercero Causales generales
@@ -563,7 +572,7 @@
         h3 
         p La enfermedad contagiosa o crónica del trabajador, que no tenga carácter de profesional, así como cualquiera otra enfermedad o lesión que lo incapacite para el trabajo, cuya curación no haya sido posible durante ciento ochenta (180) días. El despido por esta causa no podrá efectuarse sino al vencimiento de dicho lapso y no exime al empleador de las prestaciones e indemnizaciones legales y convencionales derivadas de la enfermedad. (CST, 2020, art. 62 párr. 1-15)
 
-    p.mb-5 El CST consagra las causas justas para dar por terminado unilateralmente el contrato de trabajo, por parte del trabajador.
+    p.mb-5 El CST consagra las <b>causas justas</b> para dar por terminado unilateralmente el contrato de trabajo, por parte del <b>trabajador.</b>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6
@@ -574,38 +583,36 @@
             | El haber sufrido engaño por parte del empleador, respecto de las condiciones de trabajo.
           li 
             .lista-ol--cuadro__vineta
+              span 2
+            | Todo acto de violencia, malos tratamientos o amenazas graves inferidas por el empleador contra el trabajador o los miembros de su familia, dentro o fuera del servicio, o inferidas dentro del servicio por los parientes, representantes o dependientes del empleador con el consentimiento o la tolerancia de este.
+          li 
+            .lista-ol--cuadro__vineta
               span 3
             | Cualquier acto del empleador o de sus representantes que induzca al trabajador a cometer un acto ilícito o contrario a sus convicciones políticas o religiosas.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            |  Todas las circunstancias que el trabajador no pueda prever al celebrar el contrato, y que pongan en peligro su seguridad o su salud, y que el empleador no se allane a modificar.
+    
+      .col-12.col-md-8.col-lg-6.col-xl-6
+        ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
               span 5
             | Todo perjuicio causado maliciosamente por el empleador al trabajador en la prestación del servicio.
           li 
             .lista-ol--cuadro__vineta
-              span 7
-            |  La exigencia del empleador, sin razones válidas, de la prestación de un servicio distinto, o en lugares diversos de aquel para el cual se le contrató, y cualquier violación grave de las obligaciones o prohibiciones que incumben al empleador, de acuerdo con los Artículos 57 y 59 del CST, o cualquier falta grave calificada como tal en pactos o convenciones colectivas, fallos arbitrales, contratos individuales o reglamentos. (Moncayo, 2015, párr. 1)
-    
-      .col-12.col-md-8.col-lg-6.col-xl-6
-        ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Todo acto de violencia, malos tratamientos o amenazas graves inferidas por el empleador contra el trabajador o los miembros de su familia, dentro o fuera del servicio, o inferidas dentro del servicio por los parientes, representantes o dependientes del empleador con el consentimiento o la tolerancia de este.
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | Todas las circunstancias que el trabajador no pueda prever al celebrar el contrato, y que pongan en peligro su seguridad o su salud, y que el empleador no se allane a modificar.
-          li 
-            .lista-ol--cuadro__vineta
               span 6
             | El incumplimiento sistemático sin razones válidas por parte del empleador, de sus obligaciones convencionales o legales.
-
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            |	La exigencia del empleador, sin razones válidas, de la prestación de un servicio distinto, o en lugares diversos de aquel para el cual se le contrató, y cualquier violación grave de las obligaciones o prohibiciones que incumben al empleador, de acuerdo con los Artículos 57 y 59 del CST, o cualquier falta grave calificada como tal en pactos o convenciones colectivas, fallos arbitrales, contratos individuales o reglamentos. (Moncayo, 2015, párr. 1)
     h3.mb-5.titulo-tercero Indemnizaciones      
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-
+      figcaption 
 
 
 

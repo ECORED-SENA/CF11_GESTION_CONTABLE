@@ -14,7 +14,7 @@
             img(src="@/assets/curso/images/tema2/img_8.svg" alt="", style="width:700px; display:inline-block; margin: 0 auto;")
     
     #t_2_1.titulo-segundo
-      .h2 2.1  Política contable
+      .h2 2.1  Beneficios a empleados
     p.mb-3 El capital humano en las entidades o empresas ha venido tomando un gran valor para las directivas; cada vez más, se enfatiza su importancia como un recurso imprescindible para poder alcanzar los objetivos organizacionales y este puede ser una fortaleza que las empresas deben valorar y retribuir económicamente de manera más favorable con los diversos beneficios que pueden ofrecer por la prestación de sus servicios.
     p.mb-5 Según la Norma Internacional de Contabilidad (NIC 19), se definen los beneficios a los empleados así:
 
@@ -68,6 +68,33 @@
             .col.mb-3.mb-sm-0
               P Beneficios por retiro (por ejemplo, pensiones y pagos únicos por retiro) y otros beneficios post-empleo, como los seguros de vida y los beneficios de atención médica posteriores al empleo.
 
+      p.mb-3 Otros beneficios a los empleados a largo plazo, tales como los siguientes:
+
+      .row.justify-content-center.align-items-center.mb-3
+        .col
+          .col-sm  
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Las ausencias retribuidas a largo plazo, tales como vacaciones tras largos periodos de servicio o años sabáticos.
+                  li 
+                    i.fas.fa-check
+                    | Los premios de antigüedad u otros beneficios por largo tiempo de servicio; y los beneficios por invalidez permanente y beneficios por terminación. (Comité de Normas Internacionales de Contabilidad, 1998)
+      .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/images/tema1/ico_5.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                .h5.mb-0 Con el fin de profundizar sobre la Norma Internacional (NIC) 19, se sugiere explorar las siguientes páginas: 
+      
+              .col-sm-auto
+                a.boton.boton--c(href="https://incp.org.co/Site/publicaciones/guias/nic-19.pdf" target="_blank")
+                  span Ver
+                  i.fas.fa-file-download
+        
+
       .col-12.col-md-8.col-lg-6.col-xl-12
             img(src='@/assets/curso/images/tema2/img_10.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
 
@@ -79,7 +106,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
           .col-8
-            .bloque-texto-d.color-primario.p-4
+            .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
                 span.h5 “Trabajo suplementario o de horas extras es el que excede de la jornada ordinaria, y en todo caso el que excede de la máxima legal”
@@ -122,7 +149,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               h2 Hora extra dominical nocturna
-              p La hora extra dominical nocturna es la que se labora luego de la jornada laboral, entre las 9 de la noche y las 6 de la mañana, cuando se labora domingo o festivo.  
+              p "HEDN" La hora extra dominical nocturna es la que se labora luego de la jornada laboral, entre las 9 de la noche y las 6 de la mañana, cuando se labora domingo o festivo.  
 
     .row.justify-content-center.align-items-center.mb-3 
       .col-lg-6
@@ -130,7 +157,7 @@
           img(src='@/assets/curso/images/tema2/ico_34.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
             .p-4
-              h2 Recargo nocturno.
+              h2 Recargo nocturno
               p  El numeral 1 del artículo 168 del CST señala que el trabajo nocturno se remunera con un recargo del 35 %. 
 
     .row.justify-content-center.align-items-center.mb-3
@@ -209,16 +236,16 @@
           img(src='@/assets/curso/images/tema2/ico_40.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
             .p-2
-              h2 Ejemplo 1.
-              p <b>Sueldo básico devengado:</b> Si un trabajador inicia a laborar el día 2 de marzo, con un sueldo concertado con la empresa de $1.200.000, el valor devengado en el mes corresponde a $1.160.000..
+              h2 Ejemplo 1
+              p <b>Sueldo básico devengado:</b> si un trabajador inicia a laborar el día 2 de marzo, con un sueldo concertado con la empresa de $1.200.000, el valor devengado en el mes corresponde a $1.160.000.
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_41.svg', alt="", style="width:100px; display:block; margin:0 auto;")
           .tarjeta.tarjeta--azul
             .p-2
-              h2 Ejemplo 2.
-              p  <b>Auxilio de transporte devengado:</b> Si un trabajador inicia a laborar el día 11 de marzo, con un auxilio de transporte, según la ley $102.854, el valor devengado en el mes corresponde a $68.569 (20 días).
+              h2 Ejemplo 2
+              p  <b>Auxilio de transporte devengado:</b> si un trabajador inicia a laborar el día 11 de marzo, con un auxilio de transporte, según la ley $102.854, el valor devengado en el mes corresponde a $68.569 (20 días).
 
 
     p.mb-3 Condición para reconocer el auxilio de transporte se debe pagar a los trabajadores que devenguen hasta dos salarios mínimos mensuales.
@@ -307,7 +334,7 @@
               .bloque-texto-d__autor 
                 span  (Gerencie, 2019)
 
-    p.mb-5 Así mismo las personas naturales empleadoras estarán exoneradas de la obligación de pago de los aportes parafiscales al SENA, al ICBF y al Sistema de Seguridad Social en Salud por los empleados que devenguen menos de diez (10) salarios mínimos legales mensuales vigentes. Lo anterior no aplicará para personas naturales que empleen menos de dos trabajadores, los cuales seguirán obligados a efectuar los aportes de que trata este inciso. Ver Tabla 1.
+    p.mb-5 Así mismo las personas naturales empleadoras estarán exoneradas de la obligación de pago de los aportes parafiscales al SENA, al ICBF y al Sistema de Seguridad Social en Salud por los empleados que devenguen menos de diez (10) salarios mínimos legales mensuales vigentes. Lo anterior no aplicará para personas naturales que empleen menos de dos trabajadores, los cuales seguirán obligados a efectuar los aportes de que trata este inciso. 
 
     .titulo-quinto.color-acento-contenido
       p Tabla 1 #[br] <b>Aportes a la seguridad social y parafiscales</b>
@@ -364,10 +391,10 @@
 
     #t_2_6.titulo-segundo
       .h2 2.6  Prestaciones sociales
-    p.mb-5 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarlos o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. Ver Figura 1.
+    p.mb-5 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarlos o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. 
 
     h5.mb-5.titulo-tercero Clases de prestaciones sociales:
-    .row
+    .row.mb-3
       .col-lg-6
         .row.justify-content-center.mb-3
           .col-auto
@@ -375,7 +402,7 @@
               li 
                 span.h2.span.list_1.m-top  1 
           .col-lg-8
-            p.mb-3  #[strong Cesantías] Corresponde a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajador.  
+            p.mb-3  #[strong Cesantías.] Corresponde a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajador.  
       .col-lg-6
         .row.justify-content-center.mb-3
           .col-auto
@@ -383,7 +410,7 @@
               li 
                 span.h2.span.list_1.m-top  2
           .col-lg-8
-            p.mb-3 #[strong Intereses sobre cesantías] El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual.
+            p.mb-3 #[strong Intereses sobre cesantías.] El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual.
       .col-lg-6
         .row.justify-content-center.mb-3
           .col-auto
@@ -391,7 +418,7 @@
               li 
                 span.h2.span.list_1.m-top  3
           .col-lg-8
-            p.mb-3 #[strong  Prima de servicios] Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.  
+            p.mb-3 #[strong  Prima de servicios.] Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.  
       .col-lg-6
         .row.justify-content-center.mb-3
           .col-auto
@@ -399,9 +426,8 @@
               li 
                 span.h2.span.list_1.m-top  4
           .col-lg-8
-            p.mb-3 #[strong  Vacaciones]  Corresponden a 15 días hábiles de descanso remunerado por cada año laborado, o proporcional por fracción de año si el tiempo laborado es inferior a un año (Dussán, 2020)
+            p.mb-3 #[strong  Vacaciones.]  Corresponden a 15 días hábiles de descanso remunerado por cada año laborado, o proporcional por fracción de año si el tiempo laborado es inferior a un año (Dussán, 2020)
           
-    p.mb-3 Figura 1
 
     .titulo-quinto.color-acento-contenido.mb-5 
       p Resumen prestaciones sociales
@@ -415,7 +441,7 @@
 
     .row.mb-5
       .col-lg-6.mb-5.mb-lg-0
-        .bloque-texto-d.color-primario.p-4
+        .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular Quién debe practicar retención en la fuente por ingresos laborales
@@ -424,7 +450,7 @@
             .h5.mb-0 La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
             
       .col-lg-6.mb-5.mb-lg-0
-        .bloque-texto-d.color-primario.p-4
+        .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular A cuáles trabajadores se les realiza retención en la fuente
@@ -432,16 +458,16 @@
           .bloque-texto-d__autor 
             .h5.mb-0 Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
           
-    h3.mb-3.titulo-tercero Base sujeta a retención en la fuente.
+    h3.mb-3.titulo-tercero Base sujeta a retención en la fuente
 
     p.mb-3 Según lo consagrado en el Artículo 26 del Estatuto Tributario, corresponde a todos los pagos “que sean susceptibles de producir un incremento neto del patrimonio en el momento de su percepción, y que no hayan sido expresamente exceptuados”. 
 
     h3.mb-3.titulo-tercero Tarifa de retención en la fuente por salarios
 
-    p.mb-3 El Artículo 383 del Estatuto Tributario, modificado por la Ley 2010 de 2019, contiene las tarifas que se deben aplicar por concepto de retención en la fuente por ingresos laborales. Ver Tabla 2.
+    p.mb-3 El Artículo 383 del Estatuto Tributario, modificado por la Ley 2010 de 2019, contiene las tarifas que se deben aplicar por concepto de retención en la fuente por ingresos laborales.
 
     .titulo-quinto.color-acento-contenido
-      p Tabla 1 #[br] <b>Aportes a la seguridad social y parafiscales</b>
+      p Tarifas de retención en la fuente por salarios #[br] <b>Aportes a la seguridad social y parafiscales</b>
 
 
     .col-12
@@ -499,7 +525,7 @@
 
     p.mb-3 El estatuto tributario contempla dos procedimientos para determinar la retención en la fuente por ingresos laborales y el agente de retención aplicará cualquiera de los dos según su voluntad o según lo solicite el trabajador sujeto a retención. 
 
-    p.mb-3 Para conocer estos métodos  y determinar la retención en la fuente, visite el sitio 
+    p.mb-3 Para conocer estos métodos  y determinar la retención en la fuente, , visite el siguiente sitio web y a partir de diversos ejemplos que lo llevarán a una situación real de la aplicabilidad de estos, le será más claro.
 
     .row.mt-5.mb-5
         .col-lg-6
@@ -508,8 +534,6 @@
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
                   p Enlace web. retención en la fuente
-    
-    p.mb-3 de esta manera será más claro a partir de diversos ejemplos que lo llevarán a una situación real de la aplicabilidad de estos. 
 
     Separador
 
@@ -524,29 +548,31 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-6
-        .bloque-texto-d.color-primario.p-4
+        .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-1
             i.fas.fa-quote-left
             span …2. No obstante lo dispuesto en los artículos 13, 14, 16, 21 y 340 del Código Sustantivo del Trabajo y las normas concordantes con estas, cuando el trabajador devengue un salario ordinario superior a diez (10) salarios mínimos legales mensuales, valdrá la estipulación escrita de un salario que además de retribuir el trabajo ordinario, compense de antemano el valor de prestaciones, recargos y beneficios tales como el correspondiente al trabajo nocturno, extraordinario o al dominical y festivo, primas legales, extralegales, las cesantías y sus intereses, subsidios y suministros en especie; y, en general, las que se incluyan en dicha estipulación, excepto las vacaciones.
+            p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
+
+            p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
+
+            p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
+
+            h3.mb-3.titulo-tercero Depuración de la base sujeta a retención en la fuente
+
+            p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
+
+            p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
+
+            p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…
+
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            span   artículo 132 del CST
+            span   
       .col-12.col-md-8.col-lg-6.col-xl-6
           img(src="@/assets/curso/images/tema2/img_13.svg" alt="", style="width:400px; display:block; margin: 0 auto;")
 
-    p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
-
-    p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
-
-    p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
-
-    h3.mb-3.titulo-tercero Depuración de la base sujeta a retención en la fuente
-
-    p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
-
-    p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
-
-    p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
+    p.mb-3 (Ministerio del Trabajo. República de Colombia, 2013)
 
     h3.mb-3.titulo-tercero Características del salario integral:
 
@@ -563,7 +589,7 @@
                   | Compuesto, mínimo, por 10 salarios mínimos legales mensuales, más 30 % adicional correspondiente a prestaciones sociales
                 li
                   i.fas.fa-check
-                  | Vacaciones deben ser pagadas, cuando se tenga el derecho
+                  | Vacaciones deben ser pagadas, cuando se tenga el derecho.
                 li 
                   i.fas.fa-check
                   | Cotizar a la seguridad social y aportes parafiscales sobre el 70 % (Salud, Pensión, ARL, SENA, ICBF y Caja compensación).
@@ -626,7 +652,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
-                    | Planilla de novedades del periodo (horas extras, recargos, bonificaciones, comisiones, entre otras.).
+                    | Planilla de novedades del periodo (horas extras, recargos, bonificaciones, comisiones, entre otras)
                   li 
                     .lista-ol--cuadro__vineta
                       span 2
@@ -654,16 +680,16 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
-                    | Aportes parafiscales y seguridad social
+                    | Aportes parafiscales y seguridad social.
                   li 
                     .lista-ol--cuadro__vineta
                       span 5
                     | Prestaciones sociales.
 
-    h3.mb-3.titulo-tercero Fases y liquidación de nómina. 
+    h3.mb-3.titulo-tercero Fases y liquidación de nómina
 
     LineaTiempoD.color-secundario.mb-5
-      .row(numero="1" titulo="Devengado")
+      .row.tarjeta-fondo-paso(numero="1" titulo="Devengado")
         .col-md-6
           figure
             img(src='@/assets/curso/images/tema2/ico_44.svg', alt="", style="width:400px; display:block; margin:0 auto;")
@@ -682,7 +708,7 @@
                     | Auxilio de transporte devengado = auxilio transporte vigente dividido 30 y multiplicado por días trabajados.
                   li 
                     i.fas.fa-check
-                    | Demás conceptos liquidados previamente
+                    | Demás conceptos liquidados previamente.
 
 
       .row(numero="2" titulo="Deducciones")
@@ -744,7 +770,7 @@
                     p <b>Salud: </b> 8.5 % (Revisar exoneración)
                   li 
                     i.fas.fa-check
-                    p <b>ARL:</b> Según riesgo de cada trabajador
+                    p <b>ARL:</b> según riesgo de cada trabajador
                   li 
                     i.fas.fa-check
                     p <b>Pensión:</b> 12%
@@ -761,7 +787,7 @@
                 ul.lista-ul--color
                   li 
                     i.fas.fa-check
-                    p <b>Cesantías =:</b> Total devengado x 8.33 %
+                    p <b>Cesantías =</b> Total devengado x 8.33 %
                   li 
                     i.fas.fa-check
                     p <b>Intereses sobre cesantías =</b>   Total devengado x 1 %
@@ -784,7 +810,7 @@
               .h6.mb-0 Angulo, U. (2018). Ediciones de la U. 
     
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047')" target="_blank")
+              a.boton.boton--c(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047" target="_blank")
                 span Ver
                 i.fas.fa-file-download
                    

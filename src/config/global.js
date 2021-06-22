@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Manual de Componentes para Diseñadores Instruccionales',
+    componenteFormativo: 'Contratos de trabajo y liquidación de nómina',
     descripcionCurso:
-      'Este documento es una guía práctica que presenta al detalle la información que debe suministrar los Diseñadores Instruccionales para asegurar la calidad y el tiempo de producción de cada componente.',
+      'El talento humano es el recurso más importante con el que cuenta la organización, es quien se encarga de ayudar a hacer realidad todas las metas y estrategias que la empresa propone. Por lo anterior, es de vital importancia que sus prestaciones sociales sean garantizadas por el ordenador del gasto, como una forma de compensar la contraprestación del servicio del colaborador hacia la empresa; teniendo en cuenta lo anterior es necesario tener conocimiento con respecto a la liquidación y pago correcto de las prestaciones sociales, las cuales se reflejan en un documento llamado nómina. Adicionalmente, para llevar a cabo la liquidación y contabilización de la nómina, es fundamental conocer previamente los tipos de contratos, requisitos y características de cada uno de ellos.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },
@@ -216,6 +215,11 @@ export default {
         'https://www.gerencie.com/exoneracion-de-aportes-a-seguridad-social-y-parafiscales.html',
     },
     {
+      referencia: 'Gerencie.com. (2021c, abril 16). Salario integral',
+      link:
+        'https://www.gerencie.com/salario-integral.html#:%7E:text=El%20salario%20integral%20es%20una,los%20conceptos%20en%20uno%20s%C3%B3lo.',
+    },
+    {
       referencia:
         'Ginnamarce. (2014, septiembre). Derecho laboral colombiano. ginnamaece.wordpress.com.',
       link: 'https://ginnamaece.wordpress.com/derecho-familiar/.',
@@ -331,42 +335,96 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Larrota',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios Financieros',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrologíar',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Centro de Gestión Industrial ',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Centro Agropecuario La Granja',
+        regional: 'Regional Tolima',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        Regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios',
+        Regional: 'Regional Tolima',
       },
       {
-        nombre: ['Luis Arevalo'],
+        nombre: ['Luis Zenen Arévalo Mantilla'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Gustavo Adolfo Marún Suárez',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Adriana Ariza',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ['Adriana Marcela Suárez Eljure'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodriguez Rodriguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['José Jaime Luis Tang Pinzón'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Nelson Vera'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Zuleidy Maria Ruiz Torres'],
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
