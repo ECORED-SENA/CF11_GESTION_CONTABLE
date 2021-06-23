@@ -203,7 +203,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_1.svg', alt="", style="width:150px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h5.text-center Accidental o transitorio:
               p Es un contrato que se realiza por una actividad determinada para suplir una necesidad momentánea. Su duración es máxima de un mes.
@@ -212,7 +212,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_2.svg', alt="", style="width:150px; display:block; margin:0 auto;")
          
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h5.text-center De obra o labor:
               p Es un contrato donde se realizan actividades específicas, su duración tiene un término equivalente a la duración de la obra.
@@ -221,7 +221,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema1/ico_3.svg', alt="", style="width:150px; display:block; margin:0 auto;")
 
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h5.text-center  A término fijo:
               p Es el acuerdo entre empleador y trabajador, su duración tiene una fecha específica, la cual no puede exceder de tres años.
@@ -230,7 +230,7 @@
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema1/ico_4.svg', alt="", style="width:150px; display:block; margin:0 auto;")
 
-            .tarjeta.tarjeta--azul
+            .tarjeta.color-custom
               .p-4
                 h5.text-center  A término indefinido:
                 p Es el contrato que no establece duración del contrato. (Carmen y Gudiño, 2014, p. 16)

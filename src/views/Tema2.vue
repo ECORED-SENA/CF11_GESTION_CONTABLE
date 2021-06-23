@@ -22,7 +22,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/ico_25.svg', alt="", style="width:150px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               p Beneficios a los empleados son todas las formas de contraprestación concedidas por una entidad a cambio de los servicios prestados por los empleados o por indemnizaciones por cese.
 
@@ -30,7 +30,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/ico_26.svg', alt="", style="width:150px; display:block; margin:0 auto;")
          
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               p Beneficios a los empleados a corto plazo son beneficios a los empleados (diferentes de las indemnizaciones por cese) que se espera liquidar totalmente antes de los doce meses siguientes al final del periodo anual sobre el que se informa en el que los empleados hayan prestado los servicios relacionados. 
 
@@ -38,7 +38,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema2/ico_27.svg', alt="", style="width:150px; display:block; margin:0 auto;")
 
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               p Beneficios post-empleo son beneficios a los empleados (diferentes de las indemnizaciones por cese y beneficios a los empleados a corto plazo) que se pagan después de completar su periodo de empleo. 
      
@@ -46,7 +46,7 @@
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema2/ico_28.svg', alt="", style="width:150px; display:block; margin:0 auto;")
 
-            .tarjeta.tarjeta--azul
+            .tarjeta.color-custom
               .p-4
                 p Otros beneficios a los empleados a largo plazo son todos los beneficios a los empleados diferentes de los beneficios a los empleados a corto plazo, beneficios posteriores al periodo de empleo e indemnizaciones por cese.
 
@@ -54,7 +54,7 @@
 
     p.mb-3 Los beneficios a corto plazo, tales como los siguientes, si se esperan liquidar totalmente antes de los doce meses posteriores al final del periodo anual sobre el que se informa en el que los empleados presten los servicios relacionados:
  
-      .col-12.col-md-8.col-lg-6.col-xl-12
+      .col-12.col-md-8.col-lg-6.col-xl-10
             img(src='@/assets/curso/images/tema2/img_9.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
 
     p.mb-3 Beneficios post-empleo, tales como los siguientes:
@@ -105,9 +105,9 @@
     p.mb-5 El Código Sustantivo de Trabajo (CST), en su Artículo 159, lo define claramente así:
 
     .row.justify-content-center.align-items-center.mb-5
-          .col-8
-            .bloque-texto-d.color-secundario.p-4
-              .bloque-texto-d__texto.mb-1
+          .col-9
+            .bloque-texto-b.color-secundario.p-4
+              .bloque-texto-b__texto.mb-1
                 i.fas.fa-quote-left
                 span.h5 “Trabajo suplementario o de horas extras es el que excede de la jornada ordinaria, y en todo caso el que excede de la máxima legal”
                 i.fas.fa-quote-right
@@ -122,7 +122,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_30.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h2 Hora extra ordinaria diurna 
               p “HEOD”. La hora extra diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche.
@@ -130,7 +130,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_31.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h2 Hora extra ordinaria nocturna
               p  “HEON”. La hora extra nocturna es la que se labora luego de la jornada laboral, y entre las 9 de la noche y las 6 de la mañana.
@@ -138,7 +138,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_33.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-3
               h2 Hora extra dominical diurna
               p “HEDD”. La hora extra dominical diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche; siempre y cuando se trabaje en un domingo o festivo y, se trabajen más de 8 horas diarias, si esa es la jornada ordinaria.
@@ -146,7 +146,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_32.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h2 Hora extra dominical nocturna
               p "HEDN" La hora extra dominical nocturna es la que se labora luego de la jornada laboral, entre las 9 de la noche y las 6 de la mañana, cuando se labora domingo o festivo.  
@@ -155,7 +155,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_34.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-4
               h2 Recargo nocturno
               p  El numeral 1 del artículo 168 del CST señala que el trabajo nocturno se remunera con un recargo del 35 %. 
@@ -182,7 +182,7 @@
     p.mb-3 V.H.O. Corresponde al valor ordinario de la hora, se determina dividiendo el salario mensual entre 240, que son las horas que deben trabajar de acuerdo con la jornada laboral máxima legal, que es de 8 horas, y como el mes para efectos laborales se entiende 30 días, tenemos que 30 x 8 = 240. (Gerencie, 2020).
 
     TabsC.color-acento-contenido.mb-5
-        .py-3.py-md-4.tarjeta--azul(titulo="Ejemplo HEOD")
+        .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEOD")
           .row
             .col-md-3
               figure
@@ -191,7 +191,7 @@
             
               p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 9:00 pm en la semana. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEOD =15, entonces $5.000 x 15 x 125 % =$93.750
   
-        .py-3.py-md-4.tarjeta--azul(titulo="Ejemplo HEON")
+        .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEON")
           .row
             .col-md-3
               figure
@@ -200,7 +200,7 @@
 
               p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 11:00 pm, en la semana. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEON =10, entonces $5.000 x 10 x 175 % =$87.500
 
-        .py-3.py-md-4.tarjeta--azul(titulo="Ejemplo HEDD")
+        .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEDD")
           .row
             .col-md-3
               figure
@@ -209,7 +209,7 @@
                  
               p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEDD =5, entonces $5.000 x 5 x 200 % =$50.00
 
-        .py-3.py-md-4.tarjeta--azul(titulo="Ejemplo HEDN")
+        .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEDN")
           .row
             .col-md-3
               figure
@@ -218,7 +218,7 @@
               
               p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEDN =5, entonces $5.000 x 2 x 250 % =$25.000
 
-        .py-3.py-md-4.tarjeta--azul(titulo="Recargo Nocturno")
+        .py-3.py-md-4.color-custom-1(titulo="Recargo Nocturno")
           .row
             .col-md-3
               figure
@@ -234,7 +234,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_40.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-2
               h2 Ejemplo 1
               p <b>Sueldo básico devengado:</b> si un trabajador inicia a laborar el día 2 de marzo, con un sueldo concertado con la empresa de $1.200.000, el valor devengado en el mes corresponde a $1.160.000.
@@ -242,7 +242,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema2/ico_41.svg', alt="", style="width:100px; display:block; margin:0 auto;")
-          .tarjeta.tarjeta--azul
+          .tarjeta.color-custom
             .p-2
               h2 Ejemplo 2
               p  <b>Auxilio de transporte devengado:</b> si un trabajador inicia a laborar el día 11 de marzo, con un auxilio de transporte, según la ley $102.854, el valor devengado en el mes corresponde a $68.569 (20 días).
@@ -326,7 +326,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
           .col-10
-            .bloque-texto-d.color-primario.p-3
+            .bloque-texto-d.color-secundario.p-3
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
                 span “Estarán exoneradas del pago de los aportes parafiscales a favor del Servicio Nacional del Aprendizaje (SENA), del Instituto Colombiano de Bienestar Familiar (ICBF) y las cotizaciones al Régimen Contributivo de Salud, las sociedades y personas jurídicas y asimiladas contribuyentes declarantes del impuesto sobre la renta y complementarios, correspondientes a los trabajadores que devenguen, individualmente considerados, menos de diez (10) salarios mínimos legales mensuales vigentes.”
@@ -603,9 +603,9 @@
 
     .row.justify-content-center.align-items-center.mt-5
           .col-12.col-md-8.col-lg-6
-              img(src="@/assets/curso/images/tema2/img_14.svg" alt="", style="width:350px; display:block; margin:0 auto;")
+              img(src="@/assets/curso/images/tema2/img_14.svg" alt="", style="width:550px; display:block; margin:0 auto;")
 
-          .col-sm  
+          .col-12.col-md-8.col-lg-6.p-5
             
             ul.lista-ul--color
               li 
@@ -640,11 +640,11 @@
     #t_2_9.titulo-segundo
       .h2 2.9 Liquidación de nómina
 
-    p.mb-3 Proceso mediante el cual se determina el valor a pagar por concepto de: salarios, prestaciones sociales, seguridad social y parafiscales, dependiendo la periodicidad en cada entidad (semanal, quincenal o mensual).
+    p.mb-5 Proceso mediante el cual se determina el valor a pagar por concepto de: salarios, prestaciones sociales, seguridad social y parafiscales, dependiendo la periodicidad en cada entidad (semanal, quincenal o mensual).
 
     h3.mb-4.titulo-tercero Insumos:
 
-    .row.justify-content-center.align-items-center.mt-3
+    .row.justify-content-center.align-items-center.mt-4
           .col
             .row
               .col-sm.mb-5.mb-sm-0
@@ -658,9 +658,9 @@
                       span 2
                     | Planilla o formato de nómina.
 
-    h3.mb-4.titulo-tercero Elementos en la liquidación de nómina:
+    h3.mb-5.mt-4.titulo-tercero Elementos en la liquidación de nómina:
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mt-5.mb-3
           .col
             .row
               .col-sm.mb-5.mb-sm-0
