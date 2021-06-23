@@ -443,20 +443,20 @@
       .col-lg-6.mb-5.mb-lg-0
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
-            i.fas.fa-quote-left
-            h3.text-regular Quién debe practicar retención en la fuente por ingresos laborales
-            i.fas.fa-quote-right
+            i.h2 ¿
+            h3.d-inline Quién debe practicar retención en la fuente por ingresos laborales
+            i.h2 ?
           .bloque-texto-d__autor 
-            .h5.mb-0 La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
+            p.mb-0.text-small La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
             
       .col-lg-6.mb-5.mb-lg-0
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
-            i.fas.fa-quote-left
-            h3.text-regular A cuáles trabajadores se les realiza retención en la fuente
-            i.fas.fa-quote-right
+            i.h2 ¿
+            h3.d-inline A cuáles trabajadores se les realiza retención en la fuente
+            i.h2 ?
           .bloque-texto-d__autor 
-            .h5.mb-0 Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
+            p.mb-0.text-small Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
           
     h3.mb-3.titulo-tercero Base sujeta a retención en la fuente
 
