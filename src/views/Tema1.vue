@@ -43,7 +43,7 @@
               p.p  TITULO IX.
               p.p   PRESTACIONES PATRONALES ESPECIALES
               p.p   TITULO X.
-              p <b>NORMAS PROTECTORAS DE LAS PRESTACIONES</b>
+              p NORMAS PROTECTORAS DE LAS PRESTACIONES
               p.p  TITULO XI.
               p.p.mb-3  HIGIENE Y SEGURIDAD EN EL TRABAJO
 
@@ -75,9 +75,9 @@
             .col.mb-3.mb-sm-0
               .h5.mb-0 
               p.p Es de resaltar la importancia de conocer el contenido del CST, para ello se invita a observar 
-              p.p su estructura general #a través del siguiente enlace: 
+              p.p su estructura general a través del siguiente enlace: 
             .col-sm-auto
-              a.boton.boton--c(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf" target="_blank")
+              a.boton.boton--c(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Codigo/30019323" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -143,7 +143,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
-                span.h5 “Contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante la remuneración o salario”
+                span.h5 Contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante la remuneración o salario
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 span  (Secretaría del Senado, 2020, art. 22)
@@ -205,7 +205,7 @@
           img(src='@/assets/curso/images/tema1/ico_1.svg', alt="", style="width:150px; display:block; margin:0 auto;")
           .tarjeta.color-custom
             .p-4
-              h5.text-center Accidental o transitorio:
+              h5.text-center Accidental o transitorio
               p Es un contrato que se realiza por una actividad determinada para suplir una necesidad momentánea. Su duración es máxima de un mes.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -214,7 +214,7 @@
          
           .tarjeta.color-custom
             .p-4
-              h5.text-center De obra o labor:
+              h5.text-center De obra o labor
               p Es un contrato donde se realizan actividades específicas, su duración tiene un término equivalente a la duración de la obra.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -223,7 +223,7 @@
 
           .tarjeta.color-custom
             .p-4
-              h5.text-center  A término fijo:
+              h5.text-center  A término fijo
               p Es el acuerdo entre empleador y trabajador, su duración tiene una fecha específica, la cual no puede exceder de tres años.
      
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -232,12 +232,12 @@
 
             .tarjeta.color-custom
               .p-4
-                h5.text-center  A término indefinido:
+                h5.text-center  A término indefinido
                 p Es el contrato que no establece duración del contrato. (Carmen y Gudiño, 2014, p. 16)
 
     p.mb-3 Existen otros contratos de trabajo, los cuales se relacionan a continuación:
 
-    .row.justify-content-center.align-items-center.mt-3
+    .row.justify-content-center.align-items-center.my-3
       .col-12
         ul.lista-ul--color
           li 
@@ -250,6 +250,8 @@
           li 
             i.fas.fa-check
             | Contrato de aprendizaje
+    
+    p.mb-3 Con el fin de ampliar los conceptos, se requiere explorar el siguiente enlace sobre los conceptos normativos:
 
     .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
@@ -261,7 +263,7 @@
               .h5.mb-0 Enlace web - Ministerio de Trabajo
     
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('https://www.mintrabajo.gov.co/normatividad/leyes-y-decretos-ley/codigos')" target="_blank")
+              a.boton.boton--c(href="https://www.mintrabajo.gov.co/normatividad/leyes-y-decretos-ley/codigos" target="_blank")
                 span Ver
                 i.fas.fa-file-download
       
@@ -510,6 +512,7 @@
       .col-12.col-md-8.col-lg-6.col-xl-6
         img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:400px; display:block; margin:0 auto;") 
 
+    p.mb-5 El CST consagra las causas justas para dar por terminado unilateralmente el contrato de trabajo, por parte del empleador:
 
     PasosA.color-secundario.mb-5(tipo="n")
       div

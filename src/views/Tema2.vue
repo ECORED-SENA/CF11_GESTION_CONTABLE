@@ -88,7 +88,11 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 .h5.mb-0 Con el fin de profundizar sobre la Norma Internacional (NIC) 19, se sugiere explorar las siguientes páginas: 
-      
+
+              .col-sm-auto
+                a.boton.boton--c(href="https://www2.deloitte.com/content/dam/Deloitte/cr/Documents/audit/documentos/niif-2019/NIC%2019%20-%20Beneficios%20a%20los%20Empleados.pdf" target="_blank")
+                  span Ver
+                  i.fas.fa-file-download
               .col-sm-auto
                 a.boton.boton--c(href="https://incp.org.co/Site/publicaciones/guias/nic-19.pdf" target="_blank")
                   span Ver
@@ -329,7 +333,7 @@
             .bloque-texto-d.color-secundario.p-3
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
-                span “Estarán exoneradas del pago de los aportes parafiscales a favor del Servicio Nacional del Aprendizaje (SENA), del Instituto Colombiano de Bienestar Familiar (ICBF) y las cotizaciones al Régimen Contributivo de Salud, las sociedades y personas jurídicas y asimiladas contribuyentes declarantes del impuesto sobre la renta y complementarios, correspondientes a los trabajadores que devenguen, individualmente considerados, menos de diez (10) salarios mínimos legales mensuales vigentes.”
+                span Estarán exoneradas del pago de los aportes parafiscales a favor del Servicio Nacional del Aprendizaje (SENA), del Instituto Colombiano de Bienestar Familiar (ICBF) y las cotizaciones al Régimen Contributivo de Salud, las sociedades y personas jurídicas y asimiladas contribuyentes declarantes del impuesto sobre la renta y complementarios, correspondientes a los trabajadores que devenguen, individualmente considerados, menos de diez (10) salarios mínimos legales mensuales vigentes.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 span  (Gerencie, 2019)
@@ -337,7 +341,7 @@
     p.mb-5 Así mismo las personas naturales empleadoras estarán exoneradas de la obligación de pago de los aportes parafiscales al SENA, al ICBF y al Sistema de Seguridad Social en Salud por los empleados que devenguen menos de diez (10) salarios mínimos legales mensuales vigentes. Lo anterior no aplicará para personas naturales que empleen menos de dos trabajadores, los cuales seguirán obligados a efectuar los aportes de que trata este inciso. 
 
     .titulo-quinto.color-acento-contenido
-      p Tabla 1 #[br] <b>Aportes a la seguridad social y parafiscales</b>
+      p <b>Aportes a la seguridad social y parafiscales</b>
 
     .col-12
       .tabla-a.color-acento-contenido.mb-2
@@ -443,20 +447,20 @@
       .col-lg-6.mb-5.mb-lg-0
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
-            i.h2 ¿
+            i.h2.em  ¿
             h3.d-inline Quién debe practicar retención en la fuente por ingresos laborales
-            i.h2 ?
+            i.h2.em  ?
           .bloque-texto-d__autor 
-            p.mb-0.text-small La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
+            p.mb-0 La retención en la fuente por salarios debe aplicarla toda persona natural o jurídica que haga pagos laborales. 
             
       .col-lg-6.mb-5.mb-lg-0
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
-            i.h2 ¿
+            i.h2.em  ¿
             h3.d-inline A cuáles trabajadores se les realiza retención en la fuente
-            i.h2 ?
+            i.h2.em  ?
           .bloque-texto-d__autor 
-            p.mb-0.text-small Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
+            p.mb-0 Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
           
     h3.mb-3.titulo-tercero Base sujeta a retención en la fuente
 
@@ -467,7 +471,7 @@
     p.mb-3 El Artículo 383 del Estatuto Tributario, modificado por la Ley 2010 de 2019, contiene las tarifas que se deben aplicar por concepto de retención en la fuente por ingresos laborales.
 
     .titulo-quinto.color-acento-contenido
-      p Tarifas de retención en la fuente por salarios #[br] <b>Aportes a la seguridad social y parafiscales</b>
+      p <b>Tarifas de retención en la fuente por salarios</b> 
 
 
     .col-12
@@ -525,7 +529,7 @@
 
     p.mb-3 El estatuto tributario contempla dos procedimientos para determinar la retención en la fuente por ingresos laborales y el agente de retención aplicará cualquiera de los dos según su voluntad o según lo solicite el trabajador sujeto a retención. 
 
-    p.mb-3 Para conocer estos métodos  y determinar la retención en la fuente, , visite el siguiente sitio web y a partir de diversos ejemplos que lo llevarán a una situación real de la aplicabilidad de estos, le será más claro.
+    p.mb-3 Para conocer estos métodos  y determinar la retención en la fuente, visite el siguiente sitio web y a partir de diversos ejemplos que lo llevarán a una situación real de la aplicabilidad de estos, le será más claro.
 
     .row.mt-5.mb-5
         .col-lg-6
@@ -556,23 +560,15 @@
 
             p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
 
-            p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…” (Ministerio del Trabajo. República de Colombia, 2013)
-
-            h3.mb-3.titulo-tercero Depuración de la base sujeta a retención en la fuente
-
-            p.mb-3 En ningún caso el salario integral podrá ser inferior al monto de diez (10) salarios mínimos legales mensuales, más el factor prestacional correspondiente a la empresa que no podrá ser inferior al treinta por ciento (30 %) de dicha cuantía. El monto del factor prestacional quedará exento del pago de retención en la fuente y de impuestos.
-
-            p.mb-3 Este salario no estará exento de las cotizaciones a la seguridad social, ni de los aportes al SENA, ICBF y cajas de compensación familiar, pero en el caso de estas tres últimas entidades, los aportes se disminuirán en un treinta por ciento (30 %).
-
             p.mb-3 El trabajador que desee acogerse a esta estipulación recibirá la liquidación definitiva de su auxilio de cesantía y demás prestaciones sociales causadas hasta esa fecha, sin que por ello se entienda terminado su contrato de trabajo…
-
             i.fas.fa-quote-right
-          .bloque-texto-d__autor 
-            span   
-      .col-12.col-md-8.col-lg-6.col-xl-6
-          img(src="@/assets/curso/images/tema2/img_13.svg" alt="", style="width:400px; display:block; margin: 0 auto;")
+            .bloque-texto-d__autor 
+              
+            
+            p.mt-3 (Ministerio del Trabajo. República de Colombia, 2013)
 
-    p.mb-3 (Ministerio del Trabajo. República de Colombia, 2013)
+      .col-12.col-md-8.col-lg-6.col-xl-6
+              img(src="@/assets/curso/images/tema2/img_13.svg" alt="", style="width:400px; display:block; margin: 0 auto;")
 
     h3.mb-3.titulo-tercero Características del salario integral:
 
@@ -652,7 +648,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
-                    | Planilla de novedades del periodo (horas extras, recargos, bonificaciones, comisiones, entre otras)
+                    | Planilla de novedades del periodo (horas extras, recargos, bonificaciones, comisiones, entre otras).
                   li 
                     .lista-ol--cuadro__vineta
                       span 2

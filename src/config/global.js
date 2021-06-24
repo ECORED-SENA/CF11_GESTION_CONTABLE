@@ -335,46 +335,41 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Ricardo Larrota',
         cargo: 'Instructor',
-        centro: 'Centro de Servicios Financieros',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Servicios Financieros Regional Distrito Capital',
       },
       {
         nombre: 'Maryuri Agudelo Franco',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrologíar',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
       {
         nombre: 'Vilma Lucía Perilla Méndez',
-        cargo: 'Revisora Metodológica y Pedagógica',
-        centro: 'Centro de Gestión Industrial ',
-        regional: 'Regional Distrito Capital',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
       },
       {
         nombre: 'Uriel Darío González Montoya',
         cargo: 'Acompañamiento pedagógico',
-        centro: 'Centro Agropecuario La Granja',
-        regional: 'Regional Tolima',
+        centro: 'Centro Agropecuario La Granja Regional Tolima',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        Regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        Regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: ['Luis Zenen Arévalo Mantilla'],
