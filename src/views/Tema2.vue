@@ -684,7 +684,7 @@
 
     h3.mb-3.titulo-tercero Fases y liquidación de nómina
 
-    LineaTiempoD.color-secundario.mb-5
+    LineaTiempoD.color-secundario.my-5
       .row.tarjeta-fondo-paso(numero="1" titulo="Devengado")
         .col-md-6
           figure

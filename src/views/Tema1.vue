@@ -155,7 +155,7 @@
 
     p.mb-3 El Artículo 23 del CST señala los tres elementos que contiene un contrato de trabajo:
 
-    LineaTiempoD.color-secundario.mb-5
+    LineaTiempoD.color-secundario.my-5
       .row(numero="1" titulo="La prestación personal del servicio")
         .col-md-6
           figure
