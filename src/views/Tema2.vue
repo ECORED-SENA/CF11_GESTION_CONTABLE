@@ -70,20 +70,14 @@
 
       p.mb-3 Otros beneficios a los empleados a largo plazo, tales como los siguientes:
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col
-          .col-sm  
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    | Las ausencias retribuidas a largo plazo, tales como vacaciones tras largos periodos de servicio o años sabáticos.
-                  li 
-                    i.fas.fa-check
-                    | Los premios de antigüedad u otros beneficios por largo tiempo de servicio; y los beneficios por invalidez permanente y beneficios por terminación. (Comité de Normas Internacionales de Contabilidad, 1998)
+      .col-12.col-md-8.col-lg-6.col-xl-12
+            img(src='@/assets/curso/images/tema2/img_10.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
+      
       .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/images/tema1/ico_5.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
+      
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -99,8 +93,7 @@
                   i.fas.fa-file-download
         
 
-      .col-12.col-md-8.col-lg-6.col-xl-12
-            img(src='@/assets/curso/images/tema2/img_10.svg', alt="", style="width:1000px; display:block; margin:0 auto;")
+      
 
     #t_2_2.titulo-segundo
       .h2 2.2  Trabajo extra y recargos

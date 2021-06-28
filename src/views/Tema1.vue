@@ -439,7 +439,7 @@
         li 
           .lista-ol--cuadro__vineta
             span b
-          | naturaleza reservada o cuya divulgación pueda ocasionar perjuicios al empleador, lo que no obsta para denunciar delitos comunes o violaciones del contrato o de las normas legales del trabajo ante las autoridades competentes.
+          | No comunicar con terceros, salvo la autorización expresa, las informaciones que tenga sobre su trabajo, especialmente sobre las cosas que sean de naturaleza reservada o cuya divulgación pueda ocasionar perjuicios al empleador, lo que no obsta para denunciar delitos comunes o violaciones del contrato o de las normas legales del trabajo ante las autoridades competentes.
         li 
           .lista-ol--cuadro__vineta
             span c
@@ -465,7 +465,6 @@
             span i
           | La trabajadora en estado de embarazo debe empezar a disfrutar la licencia remunerada consagrada en el numeral 1 del Artículo 236, al menos una semana antes de la fecha probable del parto. (CST, 2020, art. 58 párr. 1-8)
     
-    p.mt-5 El CST consagra las causas justas para dar por terminado unilateralmente el contrato de trabajo, por parte del <b>empleador:</b>
     #t_1_4.titulo-segundo
       .h2.mt-5 1.4   Causales de terminación del contrato de trabajo e indemnizaciones
     h3.mb-3.titulo-tercero Causales generales
@@ -553,7 +552,7 @@
 
       div
         h3 
-        p CLa sistemática inejecución, sin razones válidas, por parte del trabajador, de las obligaciones convencionales o legales.
+        p La sistemática inejecución, sin razones válidas, por parte del trabajador, de las obligaciones convencionales o legales.
 
       div
         h3 

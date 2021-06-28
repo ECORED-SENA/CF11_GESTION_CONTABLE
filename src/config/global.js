@@ -64,7 +64,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Política contable',
+            titulo: 'Beneficios a empleados',
             hash: 't_2_1',
           },
           {
