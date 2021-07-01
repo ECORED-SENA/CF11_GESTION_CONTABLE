@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Contratos de trabajo y liquidación de nómina',
     descripcionCurso:
-      'El talento humano es el recurso más importante con el que cuenta la organización, es quien se encarga de ayudar a hacer realidad todas las metas y estrategias que la empresa propone. Por lo anterior, es de vital importancia que sus prestaciones sociales sean garantizadas por el ordenador del gasto, como una forma de compensar la contraprestación del servicio del colaborador hacia la empresa; teniendo en cuenta lo anterior es necesario tener conocimiento con respecto a la liquidación y pago correcto de las prestaciones sociales, las cuales se reflejan en un documento llamado nómina. Adicionalmente, para llevar a cabo la liquidación y contabilización de la nómina, es fundamental conocer previamente los tipos de contratos, requisitos y características de cada uno de ellos.',
+      'El talento humano es el recurso más importante con el que cuenta una organización, se encarga de hacer realidad todas las metas y estrategias que la empresa propone, por lo anterior, es de vital importancia que sus prestaciones sociales sean garantizadas, como una forma de compensar la contraprestación del servicio del colaborador hacia la empresa; a partir de esto, es necesario tener conocimiento con respecto a la liquidación y pago correcto de las prestaciones sociales, las cuales se reflejan en el presente componente.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },
@@ -21,7 +21,7 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+        icono: 'far fa-play-circle',
         numero: '1',
         titulo: 'Legislación laboral',
         desarrolloContenidos: true,
@@ -46,7 +46,7 @@ export default {
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: 'far fa-play-circle',
             numero: '1.4',
             titulo:
               'Causales de terminación del contrato de trabajo e indemnizaciones',

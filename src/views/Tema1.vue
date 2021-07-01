@@ -8,17 +8,22 @@
         span 1
       h1 Legislación laboral
 
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/wGMMPB3ZdXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          
+
     p.mb-3 Legislación laboral es el conjunto de principios, acciones y normas que regulan directa e indirectamente las relaciones entre empleadores y trabajadores, y de estos con el Estado, con el objeto de garantizar los derechos fundamentales de los trabajadores y la protección del trabajo. Todo lo anterior tiene el único fin de lograr la paz social, siendo esta la finalidad del código laboral colombiano. (Ginnamarce, 2014)
     p.mb-3 En este componente se abordará la normatividad requerida para el reconocimiento de los beneficios a los empleados en Colombia.
 
     p.mb-3 Para apropiarse del conocimiento de la normatividad vigente, en cuanto a la legislación laboral en Colombia, la cual debe ser aplicada en cualquier contexto laboral de las empresas, es necesario realizar una revisión del Código Sustantivo de Trabajo (CST) y los cambios reflejados en el Decreto 1072 de 2015. 
 
-    p.mb-3 A continuación, se observa la estructura del Código Sustantivo del Trabajo (CST).
+    p.mb-5 A continuación, se observa la estructura del Código Sustantivo del Trabajo (CST).
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-6
+      .col-lg-6.d-none.d-xl-flex
         img(src="@/assets/curso/images/tema1/img_1.svg" alt="", style="width:900px; display:block; margin:0 auto;")
-      .col-12.col-md-8.col-lg-6.col-xl-6
+      .col-xl-6
         .jumbotron-blue.p-4
           .row
             .col-12.col-md-8.col-lg-10.col-xl-12
@@ -63,19 +68,17 @@
               p.p  TITULO II.
               p.p  DISPOSICIONES FINALES
 
-    .jumbotron-gris.p-2
+    .jumbotron-gris.p-2.mb-5
       p Instituto Nacional de Contadores Públicos (INCP, s.f.)
                 
-    .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
+    .tarjeta.custom_bg.p-3.mb-5
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/images/tema2/ico_4.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
+        .col-auto
+          img(src="@/assets/curso/images/tema2/ico_4.svg" alt="", style="width:90px;")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 
-              p.p Es de resaltar la importancia de conocer el contenido del CST, para ello se invita a observar 
-              p.p su estructura general a través del siguiente enlace: 
+            .col.mb-3.mb-sm-0              
+              p.mb-0.text-white Es de resaltar la importancia de conocer el contenido del CST, para ello se invita a observar su estructura general a través del siguiente enlace
             .col-sm-auto
               a.boton.boton--c(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Codigo/30019323" target="_blank")
                 span Descargar
@@ -133,23 +136,24 @@
 
     Separador
     #t_1_2.titulo-segundo
-      .h2 1.2    Contrato de trabajo, elementos y tipos de contrato de trabajo
+      .h2 1.2 Contrato de trabajo, elementos y tipos de contrato de trabajo
     h3.mb-3.titulo-tercero Definición contrato de trabajo
 
     p.mb-3 De acuerdo con el CST en el Articulo 22
 
     .row.justify-content-center.align-items-center.mb-5
-          .col-8
-            .bloque-texto-d.color-secundario.p-4
-              .bloque-texto-d__texto.mb-1
-                i.fas.fa-quote-left
-                span.h5 Contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante la remuneración o salario
-                i.fas.fa-quote-right
-              .bloque-texto-d__autor 
-                span  (Secretaría del Senado, 2020, art. 22)
-    p.mb-3 Es importante resaltar que se debe profundizar el tema relacionado en el CST.
+      .col-lg-8
+        .bloque-texto-d.color-secundario.p-4
+          .bloque-texto-d__texto.mb-1
+            i.fas.fa-quote-left
+            span.h5 Contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante la remuneración o salario
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            span  (Secretaría del Senado, 2020, art. 22)
 
-    h6.mb-3 Elementos del contrato de trabajo
+    p.mb-5 Es importante resaltar que se debe profundizar el tema relacionado en el CST.
+
+    h5.mb-3 Elementos del contrato de trabajo
 
     p.mb-3 Todo contrato de trabajo deberá contener una serie de elementos que lo configuran legalmente; elementos que son esenciales en la concertación o convenio que pactan el empleador y trabajador, configurando la naturaleza de la relación laboral entre las partes.
 
@@ -157,20 +161,20 @@
 
     LineaTiempoD.color-secundario.my-5
       .row(numero="1" titulo="La prestación personal del servicio")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/images/tema1/img_2.svg', alt="", style="width:400px; display:block; margin:0 auto;")
           
-        .col-md-6.mb-4.mb-md-0.p-5
-          p.mb-3 El primer elemento de un contrato de trabajo es la prestación personal del servicio por parte del trabajador. <b>“La actividad personal del trabajador, es decir, realizada por sí mismo”</b>, según el CST.
+        .col-lg-6.p-4
+          p.mb-0 El primer elemento de un contrato de trabajo es la prestación personal del servicio por parte del trabajador. <b>“La actividad personal del trabajador, es decir, realizada por sí mismo”</b>, según el CST.
           p En otras palabras, se podría decir que el trabajador debe realizar el trabajo contratado de forma personalizada, de modo que la ejecución no puede ser delegada a un tercero. 
 
       .row(numero="2" titulo="La continuada subordinación")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/images/tema1/img_3.svg', alt="", style="width:400px; display:block; margin:0 auto;")
           
-        .col-md-6.mb-4.mb-md-0.p-4
+        .col-lg-6.p-4
           p.mb-3 Es el segundo elemento de un contrato de trabajo, que se podría definir como el deber de un trabajador de obedecer las instrucciones y órdenes que el empleador le formule y donde el trabajador no tiene autonomía ni libertad respecto al cómo y cuándo debe hacer el trabajo para el cual fue contratado. 
 
           p.mb-3 El CST la define así:
@@ -182,20 +186,20 @@
           figure
             img(src='@/assets/curso/images/tema1/img_4.svg', alt="", style="width:400px; display:block; margin:0 auto;")
       
-        .col-md-6.mb-4.mb-md-0.p-5
+        .col-lg-6.p-4
           p.mb-3 Por último, se puede afirmar que cuando existe un contrato bilateral y oneroso, se confirma el derecho a una remuneración o pago por realizar una labor.
           p.mb-3 En cuanto a lo que afirma la norma, esta lo define como: “Un salario como retribución del servicio”. (INCP, s.f.)
-          p.mb-3 Finalmente, para profundizar en los temas propuestos en el CST, se sugiere ingresar a través del siguiente enlace:
+          p.mb-4 Finalmente, para profundizar en los temas propuestos en el CST, se sugiere ingresar a través del siguiente enlace:
         
-          a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html" target="_blank")
+          a.anexo(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p Enlace web. Secretaría del Senado. 
       
-    p.mb-3 Cuando se consagren los tres elementos anteriormente comentados, se configura la existencia de un contrato de trabajo ante la ley, independientemente del nombre que se utilice en la relación contractual. 
+    p.mb-5 Cuando se consagren los tres elementos anteriormente comentados, se configura la existencia de un contrato de trabajo ante la ley, independientemente del nombre que se utilice en la relación contractual. 
 
-    h6.mb-3 Tipos de contrato de trabajo
+    h5.mb-3 Tipos de contrato de trabajo
 
     p.mb-5 Los contratos de trabajo en Colombia se pueden clasificar en:
 
@@ -253,18 +257,17 @@
     
     p.mb-3 Con el fin de ampliar los conceptos, se requiere explorar el siguiente enlace sobre los conceptos normativos:
 
-    .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
+    .tarjeta.custom_bg.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/images/tema1/ico_5.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              .h5.mb-0 Enlace web - Ministerio de Trabajo
-    
-            .col-sm-auto
+              .h5.mb-0.text-white  Ministerio de Trabajo    
+            .col-auto
               a.boton.boton--c(href="https://www.mintrabajo.gov.co/normatividad/leyes-y-decretos-ley/codigos" target="_blank")
-                span Ver
+                span Ir al sitio web
                 i.fas.fa-file-download
       
 
@@ -282,10 +285,11 @@
                   p Enlace web. Contabilidad universitaria.
                   p Carmen y Gudiño (2014). 
     
-          h6.mt-5.mb-3 Ejemplo:
+      h5.my-5 Ejemplo:
       .row.justify-content-center.align-items-center.mb-4
         .col-12
-            table
+          .overflowX          
+            table(style="min-width:1000px")
               tr.th-1.text-center
                 th.element
                 th.element Clase de contrato
@@ -320,52 +324,53 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-12
           .tabla-a.color-acento-contenido
-            table
-              thead
-                tr.th-1.text-center
-                  th
-                  th Clase de contrato
-                  th No.
-                  th Características generales
-                  
-              tbody
-                tr.th-color-1
-                  td.text-center.element <b>1</b>
-                  td.element Accidental o transitorio
-                  td.text-center.element 
-                    p.mb-5 3
-                    br
-                    p.mb-4 3
-                    br
-                    p.mt-5 4 
-                  td.element Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.#[BR]#[BR]Derecho al pago de prestaciones sociales en proporción al tiempo laborado. #[BR]#[BR] Empleador puede terminar el contrato reconociendo indemnización, según la ley.
-                tr.th-color-2
-                  td.text-center.element  <b>2</b>
-                  td.element De obra o labor
-                  td.text-center.element
-                    p.mb-5 1
-                    p.mb-5 4
-                    p 1 
-                  td.element La duración del contrato debe ser inferior a un mes. #[BR]#[BR] Las partes no determinan su duración #[BR]#[BR] No devengan prestaciones sociales.
-                tr.th-color-1
-                  td.text-center.element <b>3</b>
-                  td.element A término fijo
-                  td.text-center.element 
-                    p.mb-5 1 
-                    br
-                    p.mb-5 1
-                    br
-                    p 2
-                  td.element No requieren celebrarse por escrito. #[BR]#[BR] Se usan para realizar un trabajo ocasional que no tiene relación con las actividades normales del empleador. #[BR]#[BR] Son usuales para ejecutar una labor u obra específica.
-                tr.th-color-2
-                  td.text-center.element <b>4</b>
-                  td.element A término indefinido
-                  td.text-center.element
-                    p.mb-2 3
-                    br
-                    br
-                    p.mb-5 2
-                  td.element Su duración no puede exceder los tres años. #[BR]#[BR] Tiene un término equivalente a la duración de la obra o labor encomendada.
+            .overflowX          
+              table(style="min-width:1000px")
+                thead
+                  tr.th-1.text-center
+                    th
+                    th Clase de contrato
+                    th No.
+                    th Características generales
+                    
+                tbody
+                  tr.th-color-1
+                    td.text-center.element <b>1</b>
+                    td.element Accidental o transitorio
+                    td.text-center.element 
+                      p.mb-5 3
+                      br
+                      p.mb-4 3
+                      br
+                      p.mt-5 4 
+                    td.element Contratos inferiores a un año, solo se podrán prorrogar hasta tres veces por periodos iguales o inferiores.#[BR]#[BR]Derecho al pago de prestaciones sociales en proporción al tiempo laborado. #[BR]#[BR] Empleador puede terminar el contrato reconociendo indemnización, según la ley.
+                  tr.th-color-2
+                    td.text-center.element  <b>2</b>
+                    td.element De obra o labor
+                    td.text-center.element
+                      p.mb-5 1
+                      p.mb-5 4
+                      p 1 
+                    td.element La duración del contrato debe ser inferior a un mes. #[BR]#[BR] Las partes no determinan su duración #[BR]#[BR] No devengan prestaciones sociales.
+                  tr.th-color-1
+                    td.text-center.element <b>3</b>
+                    td.element A término fijo
+                    td.text-center.element 
+                      p.mb-5 1 
+                      br
+                      p.mb-5 1
+                      br
+                      p 2
+                    td.element No requieren celebrarse por escrito. #[BR]#[BR] Se usan para realizar un trabajo ocasional que no tiene relación con las actividades normales del empleador. #[BR]#[BR] Son usuales para ejecutar una labor u obra específica.
+                  tr.th-color-2
+                    td.text-center.element <b>4</b>
+                    td.element A término indefinido
+                    td.text-center.element
+                      p.mb-2 3
+                      br
+                      br
+                      p.mb-5 2
+                    td.element Su duración no puede exceder los tres años. #[BR]#[BR] Tiene un término equivalente a la duración de la obra o labor encomendada.
     Separador
     #t_1_3.titulo-segundo
       .h2 1.3  Deberes y derechos de empleado y empleador
@@ -467,11 +472,12 @@
     
     #t_1_4.titulo-segundo
       .h2.mt-5 1.4   Causales de terminación del contrato de trabajo e indemnizaciones
+
     h3.mb-3.titulo-tercero Causales generales
     p.mb-5 Un contrato de trabajo se puede dar por terminado cuando se presente cualquiera de las siguientes causas. Según el Artículo 61 del CST, estas son:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm.mb-5.mb-sm-0
+      .col-lg-6
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -505,11 +511,10 @@
           li 
             .lista-ol--cuadro__vineta
               span h
-            | Por no regresar el trabajador a su empleo, al desaparecer las causas de la suspensión del contrato. (CST, 2020, párr. 1)
-          
+            | Por no regresar el trabajador a su empleo, al desaparecer las causas de la suspensión del contrato. (CST, 2020, párr. 1)          
         
-      .col-12.col-md-8.col-lg-6.col-xl-6
-        img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:400px; display:block; margin:0 auto;") 
+      .col-auto.d-none.d-xl-flex
+        img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:400px;").m-auto
 
     p.mb-5 El CST consagra las causas justas para dar por terminado unilateralmente el contrato de trabajo, por parte del empleador:
 
@@ -576,8 +581,8 @@
 
     p.mb-5 El CST consagra las <b>causas justas</b> para dar por terminado unilateralmente el contrato de trabajo, por parte del <b>trabajador.</b>
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-6
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-6
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -595,8 +600,9 @@
             .lista-ol--cuadro__vineta
               span 4
             |  Todas las circunstancias que el trabajador no pueda prever al celebrar el contrato, y que pongan en peligro su seguridad o su salud, y que el empleador no se allane a modificar.
+          .lista-ol--separador
     
-      .col-12.col-md-8.col-lg-6.col-xl-6
+      .col-lg-6
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
