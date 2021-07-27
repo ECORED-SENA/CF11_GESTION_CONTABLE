@@ -285,7 +285,7 @@ export default {
     {
       termino: 'Provisión',
       significado:
-        'Valores que deben ser reconocidos, hoy, con el propósito de ser desembolsados en el futuro..',
+        'Valores que deben ser reconocidos, hoy, con el propósito de ser desembolsados en el futuro.',
     },
     {
       termino: 'Ingreso Base de Cotización IBC',

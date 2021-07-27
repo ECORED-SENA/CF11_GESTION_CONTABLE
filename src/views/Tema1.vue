@@ -139,7 +139,7 @@
       .h2 1.2 Contrato de trabajo, elementos y tipos de contrato de trabajo
     h3.mb-3.titulo-tercero Definición contrato de trabajo
 
-    p.mb-3 De acuerdo con el CST en el Articulo 22
+    p.mb-3 De acuerdo con el CST en el Artículo 22
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -398,7 +398,7 @@
 
       div
         h3 
-        p Prestar inmediatamente los primeros auxilios en caso de accidente o de enfermedad. A este efecto, en todo establecimiento, taller o fábrica que ocupe habitualmente más de diez (10) trabajadores se deberá mantener lo necesario según reglamentación de las autoridades sanitarias..
+        p Prestar inmediatamente los primeros auxilios en caso de accidente o de enfermedad. A este efecto, en todo establecimiento, taller o fábrica que ocupe habitualmente más de diez (10) trabajadores se deberá mantener lo necesario según reglamentación de las autoridades sanitarias.
 
       div
         h3 
@@ -418,7 +418,7 @@
 
       div
         h3 
-        p Pagar al trabajador los gastos razonables de venida y de regreso, si para prestar sus servicios lo hizo cambiar de residencia, salvo si la terminación del contrato se origina por culpa o voluntad del trabajador. Si el trabajador prefiere radicarse en otro lugar, el empleador le debe costear su traslado hasta la concurrencia de los gastos que demandaría su regreso al lugar donde residía anteriormente. En los gastos de traslado del trabajador, se entienden comprendidos los de los familiares que con el convivieren.
+        p Pagar al trabajador los gastos razonables de venida y de regreso, si para prestar sus servicios lo hizo cambiar de residencia, salvo si la terminación del contrato se origina por culpa o voluntad del trabajador. Si el trabajador prefiere radicarse en otro lugar, el empleador le debe costear su traslado hasta la concurrencia de los gastos que demandaría su regreso al lugar donde residía anteriormente. En los gastos de traslado del trabajador, se entienden comprendidos los de los familiares que con él convivieren.
 
       div
         h3 
@@ -467,7 +467,7 @@
           | Observar con suma diligencia y cuidado las instrucciones y órdenes preventivas de accidentes o de enfermedades profesionales.
         li 
           .lista-ol--cuadro__vineta
-            span i
+            span h
           | La trabajadora en estado de embarazo debe empezar a disfrutar la licencia remunerada consagrada en el numeral 1 del Artículo 236, al menos una semana antes de la fecha probable del parto. (CST, 2020, art. 58 párr. 1-8)
     
     #t_1_4.titulo-segundo

@@ -159,16 +159,16 @@
           ul.lista-ul--color
             li 
               i.fas.fa-check
-              | HEOD: Recargo 25 %, su liquidación V.H.O (valor hora ordinaria) x 125 %
+              | HEOD: Recargo 25 %, su liquidación V.H.O. (valor hora ordinaria) x 125 %
             li 
               i.fas.fa-check
-              | HEON: Recargo 75 %, su liquidación V.H.O (valor hora ordinaria) x 175 %
+              | HEON: Recargo 75 %, su liquidación V.H.O. (valor hora ordinaria) x 175 %
             li
               i.fas.fa-check
-              | HEDD: Recargo 100 %, su liquidación V.H.O (valor hora ordinaria) x 200 %
+              | HEDD: Recargo 100 %, su liquidación V.H.O. (valor hora ordinaria) x 200 %
             li 
               i.fas.fa-check
-              | HEDN: Recargo 150 %, su liquidación V.H.O (valor hora ordinaria) x 250 %
+              | HEDN: Recargo 150 %, su liquidación V.H.O. (valor hora ordinaria) x 250 %
                   
 
     p.mb-5 V.H.O. Corresponde al valor ordinario de la hora, se determina dividiendo el salario mensual entre 240, que son las horas que deben trabajar de acuerdo con la jornada laboral máxima legal, que es de 8 horas, y como el mes para efectos laborales se entiende 30 días, tenemos que 30 x 8 = 240. (Gerencie, 2020).
@@ -181,7 +181,7 @@
                 img(src='@/assets/curso/images/tema2/ico_35.svg' alt="", style="width:150px; display:block; margin:auto 2rem;")
             .col-md-8.mb-4.mb-md-0.p-4
             
-              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 9:00 pm en la semana. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEOD =15, entonces $5.000 x 15 x 125 % =$93.750
+              p Sueldo básico $ 1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 9:00 pm en la semana. Cálculo: V.H.O. = $ 1.200.000 / 240 =$ 5.000; Cantidad HEOD =15, entonces $ 5.000 x 15 x 125 % =$ 93.750
   
         .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEON")
           .row
@@ -190,7 +190,7 @@
                 img(src='@/assets/curso/images/tema2/ico_36.svg' alt="", style="width:150px; display:block; margin:auto 2rem;")
             .col-md-8.mb-4.mb-md-0.p-4
 
-              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 11:00 pm, en la semana. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEON =10, entonces $5.000 x 10 x 175 % =$87.500
+              p Sueldo básico $ 1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), termina su jornada a las 11:00 pm, en la semana. Cálculo: V.H.O. = $ 1.200.000 / 240 = $ 5.000; Cantidad HEON = 10, entonces $ 5.000 x 10 x 175 % = $ 87.500
 
         .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEDD")
           .row
@@ -199,7 +199,7 @@
                 img(src='@/assets/curso/images/tema2/ico_37.svg' alt="", style="width:150px; display:block; margin:auto 2rem;")
             .col-md-8.mb-4.mb-md-0.p-4
                  
-              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEDD =5, entonces $5.000 x 5 x 200 % =$50.00
+              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O. = $ 1.200.000 / 240 = $ 5.000; Cantidad HEDD = 5, entonces $ 5.000 x 5 x 200 % = $ 50.000
 
         .py-3.py-md-4.color-custom-1(titulo="Ejemplo HEDN")
           .row
@@ -208,7 +208,7 @@
                 img(src='@/assets/curso/images/tema2/ico_38.svg' alt="", style="width:150px; display:block; margin:auto 2rem;")
             .col-md-8.mb-4.mb-md-0.p-4
               
-              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O = $1.200.000 / 240 =$5.000; Cantidad HEDN =5, entonces $5.000 x 2 x 250 % =$25.000
+              p Sueldo básico $1.200.000, jornada laboral 8:00 am hasta 6:00 pm (lunes a viernes), inicia trabajo a las 4:00 pm y termina 11:00 pm el domingo. Cálculo: V.H.O. = $ 1.200.000 / 240 = $ 5.000; Cantidad HEDN = 5, entonces $ 5.000 x 2 x 250 % =$ 25.000
 
         .py-3.py-md-4.color-custom-1(titulo="Recargo Nocturno")
           .row
@@ -217,7 +217,7 @@
                 img(src='@/assets/curso/images/tema2/ico_39.svg' alt="", style="width:150px; display:block; margin:auto 2rem;")
             .col-md-8.mb-4.mb-md-0.p-4
               
-              p Si la jornada de trabajo la inicia el día sábado a las 10:00 pm y termina el día domingo a las 6:00 am: se calcula así: 2 horas ordinarias x 35 % y 6 horas dominicales x 110 % (35 % recargo nocturno y 75 % recargo dominical); entonces, sueldo básico $1.200.000 dividido 240 = $5.000 x 2 x 35 % =$3.500 más $5.000 x 6 x 110 % = $33.000, es decir total por recargos $36.500.
+              p Si la jornada de trabajo la inicia el día sábado a las 10:00 pm y termina el día domingo a las 6:00 am: se calcula así: 2 horas ordinarias x 35 % y 6 horas dominicales x 110 % (35 % recargo nocturno y 75 % recargo dominical); entonces, sueldo básico $ 1.200.000 dividido 240 = $ 5.000 x 2 x 35 % =$3.500 más $ 5.000 x 6 x 110 % = $ 33.000, es decir total por recargos $ 36.500.
 
     #t_2_3.titulo-segundo
       .h2 2.3   Devengado
@@ -302,7 +302,7 @@
               img(src='@/assets/curso/images/tema2/ico_42.svg', alt='')
           
         .h2.text-center.text-white Seguridad social
-        p.text-white Es el derecho que tiene toda persona natural, y en especial todo trabajador, a que se le garantice la seguridad social integral, entendida ésta como la cobertura en salud, riesgos de invalidez, vejez y muerte, igualmente cobertura en accidentes de trabajo. (Gerencie, 2021a)
+        p.text-white Es el derecho que tiene toda persona natural, y en especial todo trabajador, a que se le garantice la seguridad social integral, entendida esta como la cobertura en salud, riesgos de invalidez, vejez y muerte, igualmente cobertura en accidentes de trabajo. (Gerencie, 2021a)
       .col-md.tarjeta.color-acento-contenido.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -448,7 +448,7 @@
             h3.d-inline A cuáles trabajadores se les realiza retención en la fuente
             i.h2.em  ?
           .bloque-texto-d__autor 
-            p.mb-0 Sólo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
+            p.mb-0 Solo se aplicará retención en la fuente a los salarios que superen las bases sujetas a retención, las cuales están definidas en el Artículo 383 del Estatuto Tributario. 
           
     h3.mb-3.titulo-tercero Base sujeta a retención en la fuente
     p.mb-5 Según lo consagrado en el Artículo 26 del Estatuto Tributario, corresponde a todos los pagos “que sean susceptibles de producir un incremento neto del patrimonio en el momento de su percepción, y que no hayan sido expresamente exceptuados”. 
@@ -522,7 +522,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Enlace web. retención en la fuente
+                  p Enlace web. Retención en la fuente
 
     Separador
 
@@ -530,7 +530,7 @@
     #t_2_7.titulo-segundo
       .h2 2.7 Salario integral
 
-    p.mb-3 Es una forma de remuneración que incluye prestaciones sociales, recargos nocturnos, dominical y festivo, y el trabajo extra, es decir, integra todos los conceptos en uno sólo, no incluye vacaciones. (Gerencie, 2021c).
+    p.mb-3 Es una forma de remuneración que incluye prestaciones sociales, recargos nocturnos, dominical y festivo, y el trabajo extra, es decir, integra todos los conceptos en uno solo, no incluye vacaciones. (Gerencie, 2021c).
 
     p.mb-5 El salario integral es regulado por el artículo 132 del CST, así:
     
@@ -752,7 +752,7 @@
                   p <b>ARL:</b> según riesgo de cada trabajador
                 li 
                   i.fas.fa-check
-                  p <b>Pensión:</b> 12%
+                  p <b>Pensión:</b> 12 %
 
       .row(numero="5" titulo="Prestaciones sociales")
         .col-lg-6
